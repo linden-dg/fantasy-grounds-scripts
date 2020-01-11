@@ -1,0 +1,2731 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="8|CoreRPG:4">
+	<battle>
+		<category name="" baseicon="0" decalicon="0">
+			<id-00001>
+				<cr type="string">1</cr>
+				<exp type="number">175</exp>
+				<locked type="number">1</locked>
+				<name type="string">Wandering Monsters - Stirges</name>
+				<npclist>
+					<id-00001>
+						<count type="number">7</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.stirge@DD Lost Mine of Phandelver</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+							<id-00005>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00005>
+							<id-00006>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00006>
+							<id-00007>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00007>
+						</maplink>
+						<name type="string">Stirge</name>
+						<token type="token">tokens/stirge.png@DD Lost Mine of Phandelver</token>
+					</id-00001>
+				</npclist>
+			</id-00001>
+			<id-00002>
+				<cr type="string">5</cr>
+				<exp type="number">1350</exp>
+				<name type="string">Gith and stuff</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.githzeraimonk@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00001.image</recordname>
+								</imageref>
+								<imagex type="number">2712</imagex>
+								<imagey type="number">848</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Githzerai Monk</name>
+						<token type="token">tokens/githzeraimonk.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.intellectdevourer@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00001.image</recordname>
+								</imageref>
+								<imagex type="number">2965</imagex>
+								<imagey type="number">1050</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00001.image</recordname>
+								</imageref>
+								<imagex type="number">2864</imagex>
+								<imagey type="number">1252</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Intellect Devourer</name>
+						<token type="token">tokens/intellectdevourer.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00002>
+			<id-00003>
+				<cr type="string">2</cr>
+				<exp type="number">450</exp>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.mimic@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class>imagewindow</class>
+									<recordname>image.id-00001.image</recordname>
+								</imageref>
+								<imagex type="number">1745</imagex>
+								<imagey type="number">1680</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Mimic</name>
+						<token type="token">tokens/mimic.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00003>
+		</category>
+		<category name="Conjure tables" baseicon="0" decalicon="0">
+			<id-00005>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Dinosaurs 1</name>
+				<npclist>
+					<id-00011>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.deinonychus@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Deinonychus</name>
+						<token type="token">tokens/deinonychus.png@DD Volos Guide to Monsters</token>
+					</id-00011>
+					<id-00012>
+						<count type="number">2</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.velociraptor@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Velociraptor</name>
+						<token type="token">tokens/velociraptor.png@DD Volos Guide to Monsters</token>
+					</id-00012>
+					<id-00013>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.dimetrodon@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Dimetrodon</name>
+						<token type="token">tokens/dimetrodon.png@DD Volos Guide to Monsters</token>
+					</id-00013>
+				</npclist>
+			</id-00005>
+			<id-00006>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Dinosaurs 2</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.deinonychus@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Deinonychus</name>
+						<token type="token">tokens/deinonychus.png@DD Volos Guide to Monsters</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.hadrosaurus@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Hadrosaurus</name>
+						<token type="token">tokens/hadrosaurus.png@DD Volos Guide to Monsters</token>
+					</id-00002>
+					<id-00013>
+						<count type="number">2</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.dimetrodon@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Dimetrodon</name>
+						<token type="token">tokens/dimetrodon.png@DD Volos Guide to Monsters</token>
+					</id-00013>
+				</npclist>
+			</id-00006>
+			<id-00007>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Crocodile 1</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.crocodile@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Crocodile</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.constrictorsnake@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Constrictor Snake</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00007>
+			<id-00008>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Crocodile 2</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.crocodile@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Crocodile</name>
+						<token type="token">tokens/C.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantpoisonoussnake@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Poisonous Snake</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00008>
+			<id-00009>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Toads 1</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.gianttoad@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Giant Toad</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00009>
+			<id-00010>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Spiders 1</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantspider@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Giant Spider</name>
+						<token type="token">tokens/giantspider.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00010>
+			<id-00011>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Spiders 2</name>
+				<npclist>
+					<id-00003>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantwolfspider@DD5E SRD Bestiary</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Giant Wolf Spider</name>
+						<token type="token">tokens/giantwolfspider.png@DD5E SRD Bestiary</token>
+					</id-00003>
+					<id-00004>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantspider@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Spider</name>
+						<token type="token">tokens/giantspider.png@DD MM Monster Manual</token>
+					</id-00004>
+				</npclist>
+			</id-00011>
+			<id-00012>
+				<cr type="string">2</cr>
+				<exp type="number">300</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Bugs</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantspider@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Spider</name>
+						<token type="token">tokens/giantspider.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantwasp@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Wasp</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00002>
+					<id-00003>
+						<count type="number">2</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantcentipede@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Giant Centipede</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00003>
+				</npclist>
+			</id-00012>
+			<id-00013>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Toads 2</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.gianttoad@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Toad</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantfrog@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Giant Frog</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00013>
+			<id-00014>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Killer BEES!</name>
+				<npclist>
+					<id-00001>
+						<count type="number">4</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantwasp@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Giant Wasp</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00014>
+			<id-00015>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Wolves</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.direwolf@D&#38;D Ghosts of Saltmarsh</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Dire Wolf</name>
+						<token type="token">tokens/D.png@D&#38;D Ghosts of Saltmarsh</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.wolf@DD5E SRD Bestiary</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Wolf</name>
+						<token type="token">tokens/wolf.png@DD5E SRD Bestiary</token>
+					</id-00002>
+				</npclist>
+			</id-00015>
+			<id-00016>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Bears</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.brownbear@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Brown Bear</name>
+						<token type="token">tokens/B.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.blackbear@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Black Bear</name>
+						<token type="token">tokens/B.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00016>
+			<id-00017>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Tigers</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.panther@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+							<id-00005>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00005>
+						</maplink>
+						<name type="string">Panther</name>
+						<token type="token">tokens/P.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.tiger@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Tiger</name>
+						<token type="token">tokens/T.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00017>
+			<id-00018>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Apes</name>
+				<npclist>
+					<id-00001>
+						<count type="number">4</count>
+						<faction type="string">friend</faction>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.ape@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Ape</name>
+						<token type="token">tokens/A.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00018>
+			<id-00019>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Apes</name>
+				<npclist>
+					<id-00004>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.ape@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Ape</name>
+						<token type="token">tokens/A.png@DD MM Monster Manual</token>
+					</id-00004>
+					<id-00005>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.axebeak@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Axe Beak</name>
+						<token type="token">tokens/A.png@DD MM Monster Manual</token>
+					</id-00005>
+				</npclist>
+			</id-00019>
+			<id-00020>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Dinosaurs 3</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.deinonychus@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Deinonychus</name>
+						<token type="token">tokens/deinonychus.png@DD Volos Guide to Monsters</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.pteranodon@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Pteranodon</name>
+						<token type="token">tokens/pteranodon.png@DD MM Monster Manual</token>
+					</id-00002>
+					<id-00004>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.dimetrodon@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Dimetrodon</name>
+						<token type="token">tokens/dimetrodon.png@DD Volos Guide to Monsters</token>
+					</id-00004>
+				</npclist>
+			</id-00020>
+			<id-00021>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Horses</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.warhorse@DD5E SRD Bestiary</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Warhorse</name>
+						<token type="token">tokens/warhorse.png@DD5E SRD Bestiary</token>
+					</id-00001>
+					<id-00003>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantgoat@DD5E SRD Bestiary</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Goat</name>
+						<token type="token">tokens/giantgoat.png@DD5E SRD Bestiary</token>
+					</id-00003>
+				</npclist>
+			</id-00021>
+			<id-00022>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Birds</name>
+				<npclist>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.gianteagle@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Eagle</name>
+						<token type="token">tokens/gianteagle.png@DD MM Monster Manual</token>
+					</id-00002>
+					<id-00003>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantvulture@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Vulture</name>
+						<token type="token">tokens/giantvulture.png@DD MM Monster Manual</token>
+					</id-00003>
+				</npclist>
+			</id-00022>
+			<id-00023>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Hyena and Lion</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.gianthyena@DD5E SRD Bestiary</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Hyena</name>
+						<token type="token">tokens/G.png@DD5E SRD Bestiary</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.lion@DD5E SRD Bestiary</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Lion</name>
+						<token type="token">tokens/lion.png@DD5E SRD Bestiary</token>
+					</id-00002>
+				</npclist>
+			</id-00023>
+			<id-00024>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Octopus</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantoctopus@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Giant Octopus</name>
+						<token type="token">tokens/giantoctopus.png@DD MM Monster Manual</token>
+					</id-00001>
+				</npclist>
+			</id-00024>
+			<id-00025>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Shark</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.reefshark@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Reef Shark</name>
+						<token type="token">tokens/R.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantseahorse@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Sea Horse</name>
+						<token type="token">tokens/G.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00025>
+			<id-00026>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Animals - Sea Lion</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>npc.sealion@D&#38;D Ghosts of Saltmarsh</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00004>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00004>
+						</maplink>
+						<name type="string">Sea Lion</name>
+						<token type="token">tokens/S.png@D&#38;D Ghosts of Saltmarsh</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.giantoctopus@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Giant Octopus</name>
+						<token type="token">tokens/giantoctopus.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00026>
+			<id-00028>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Fey - Dryads and Satyr</name>
+				<npclist>
+					<id-00001>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.dryad@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Dryad</name>
+						<token type="token">tokens/dryad.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.satyr@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Satyr</name>
+						<token type="token">tokens/satyr.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00028>
+			<id-00029>
+				<cr type="string">2</cr>
+				<exp type="number">400</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Fey - Quicklings</name>
+				<npclist>
+					<id-00001>
+						<count type="number">2</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.quickling@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+						</maplink>
+						<name type="string">Quickling</name>
+						<token type="token">tokens/quickling.png@DD Volos Guide to Monsters</token>
+					</id-00001>
+				</npclist>
+			</id-00029>
+			<id-00030>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Fey - Pixies</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.pixie@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Pixie</name>
+						<token type="token">tokens/pixie.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.quickling@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Quickling</name>
+						<token type="token">tokens/quickling.png@DD Volos Guide to Monsters</token>
+					</id-00002>
+				</npclist>
+			</id-00030>
+			<id-00032>
+				<cr type="string">2</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Fey - Darkling</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.darkling@DD Volos Guide to Monsters</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Darkling</name>
+						<token type="token">tokens/darkling.png@DD Volos Guide to Monsters</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.sprite@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Sprite</name>
+						<token type="token">tokens/sprite.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00032>
+			<id-00033>
+				<cr type="string">1</cr>
+				<exp type="number">350</exp>
+				<locked type="number">1</locked>
+				<name type="string">Conjure Fey - Blink Dogs</name>
+				<npclist>
+					<id-00001>
+						<count type="number">3</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.blinkdog@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+							<id-00002>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00002>
+							<id-00003>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00003>
+						</maplink>
+						<name type="string">Blink Dog</name>
+						<token type="token">tokens/blinkdog.png@DD MM Monster Manual</token>
+					</id-00001>
+					<id-00002>
+						<count type="number">1</count>
+						<link type="windowreference">
+							<class>npc</class>
+							<recordname>reference.npcdata.dryad@DD MM Monster Manual</recordname>
+						</link>
+						<maplink>
+							<id-00001>
+								<imageref type="windowreference">
+									<class></class>
+									<recordname></recordname>
+								</imageref>
+								<imagex type="number">0</imagex>
+								<imagey type="number">0</imagey>
+							</id-00001>
+						</maplink>
+						<name type="string">Dryad</name>
+						<token type="token">tokens/dryad.png@DD MM Monster Manual</token>
+					</id-00002>
+				</npclist>
+			</id-00033>
+		</category>
+	</battle>
+	<effects>
+		<category name="" baseicon="0" decalicon="0">
+			<id-00001>
+				<duration type="number">0</duration>
+				<isgmonly type="number">1</isgmonly>
+				<label type="string">IMMUNE: unconscious</label>
+			</id-00001>
+		</category>
+	</effects>
+	<image>
+		<category name="" baseicon="0" decalicon="0">
+			<id-00001>
+				<image type="image">
+					<bitmap>Shipwreck.jpg</bitmap>
+					<gridsize>136</gridsize>
+					<gridoffset>35,90</gridoffset>
+					<shortcuts>
+						<shortcut>
+							<x>2782</x>
+							<y>1150</y>
+							<class>battle</class>
+							<recordname>battle.id-00002</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1346</x>
+							<y>212</y>
+							<class>npc</class>
+							<recordname>reference.npcdata.merrow@DD MM Monster Manual</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1739</x>
+							<y>1688</y>
+							<class>battle</class>
+							<recordname>battle.id-00003</recordname>
+						</shortcut>
+					</shortcuts>
+				</image>
+				<name type="string">Shipwreck</name>
+				<nonid_name type="string">Shipwreck</nonid_name>
+			</id-00001>
+			<id-00002>
+				<image type="image">
+					<bitmap>World Map.jpg</bitmap>
+				</image>
+				<name type="string">World Map</name>
+			</id-00002>
+		</category>
+	</image>
+	<item>
+		<category name="" baseicon="0" decalicon="0">
+			<id-00001>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">25 gp</cost>
+				<damage type="string">1d8 piercing</damage>
+				<description type="formattedtext">
+					<p></p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Whispers (Rapier)</name>
+				<properties type="string">Finesse</properties>
+				<subtype type="string">Martial Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00001>
+			<id-00002>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">250 gp</cost>
+				<damage type="string">1d10 force</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>This exotic revolver is covered in ornate engravings and lavish gilding. As you hold it in your hand you can feel it thrum with barely contained arcane energy.</p>
+					<p>When shooting the weapon, make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p>
+					<p>As you reach higher levels you become more profient at rapidly emptying the chamber. The weapon fires more than one shot when you reach higher levels: two shots at 5th level, three at 11th level, and four shots at 17th level. You can direct the shots at the same target or at different ones. Make a separate attack roll for each shot.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">0</locked>
+				<name type="string">The Last Word (old)</name>
+				<nonid_name type="string">Revolver</nonid_name>
+				<nonidentified type="string">This exotic revolver is covered in ornate engravings and lavish gilding. As you hold it in your hand you can feel it thrum with barely contained arcane energy.</nonidentified>
+				<properties type="string">Ammunition (range 100/120), light, magic</properties>
+				<rarity type="string">Uncommon</rarity>
+				<subtype type="string">Revolver</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">3</weight>
+			</id-00002>
+			<id-00003>
+				<ac type="number">1</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">501-5,000gp</cost>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>These vicious Talons are crafted by the Sea Reaver clan, a small group of renegade Goliath who prowl the Azure Sea. Made from armour ripped off fallen foes, then engraved with runes of eldritch power, the talons make the clan's hunters and trackers a force to be reckoned with, on both land and sea.</p>
+					<p>While wearing the Talons of the Hunter you gain the following benefits:</p>
+					<list>
+						<li>While equipped, this armguard acts as a shield, but only provides a +1 bonus to AC</li>
+						<li>This armguard can be used with Versatile and Heavy weapons to make two-handed strikes</li>
+						<li>Your unarmed strikes made with the talons deal slashing damage, use a 1d4 for damage and count as magical.</li>
+						<li>When you're raging and use the Attack action, you can use a bonus action to attack with the talons.</li>
+					</list>
+					<p></p>
+					<p>The armguard has 4 charges for the following properties. It regains 1d4 expended charges daily at dawn.</p>
+					<p><b>Spells. </b>You can use an action to expend 1 or more of the armguard's charges to cast one of the following spells from it, using a DC 15 spell save: Snare (1 charge), Camouflage (1 charge), Hunter's Mark (2 charges).</p>
+					<p>In addition you can cast <i>Locate Animals or Plants </i>as a ritual without expending any charges.</p>
+					<linklist>
+						<link class="power" recordname="reference.spelldata.hunter_smark@DD PHB Deluxe"><b>Spell: </b></link>Hunter's Mark</linklist>
+						<link class="power" recordname="reference.spelldata.snare@DD Xanathar's Guide to Everything"><b>Spell: </b></link>Snare
+						<link class="power" recordname="reference.spelldata.camouflage@Book of Lost Spells"><b>Spell: </b></link>Camouflage
+						<link class="power" recordname="reference.spelldata.locateanimalsorplants@DD PHB Deluxe"><b>Ritual: </b></link>Locate Animals or Plants
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Talons of the Hunter</name>
+				<nonid_name type="string">Oversized Armguard</nonid_name>
+				<nonidentified type="string">This armguard appears to be made from scavenged plate armour, and is obviously intended for larger humanoids. It covers your left (or right) arm from the shoulder down with a series of metallic plates, and ends in a vicious clawed gauntlet. Each plate is carved with runes that appear to be Giant-like in origin.</nonidentified>
+				<properties type="string">Magic</properties>
+				<rarity type="string">Rare (Requires Attunement)</rarity>
+				<strength type="string">15</strength>
+				<subtype type="string">Shield</subtype>
+				<type type="string">Armor</type>
+				<weight type="number">16</weight>
+			</id-00003>
+			<id-00004>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50 - 100 gp</cost>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>The wearer of this leather glove can snap their fingers and ignite a small, candle-like flame in their hand, which sheds bright light in a 5-foot radius and dim light for an additional 5 feet. The flame persists as long as the wearer holds the glove in a 'snapping' position, or until it is blown out.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Glove of Sparks</name>
+				<nonid_name type="string">Glove</nonid_name>
+				<nonidentified type="string">A leather glove with intricate stitching resembling dancing flames</nonidentified>
+				<properties type="string">Magic</properties>
+				<rarity type="string">Common</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat of Vermin</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat</name>
+					</id-00002>
+				</spells>
+				<type type="string">Wondrous Item</type>
+				<weight type="number">0.25</weight>
+			</id-00004>
+			<id-00005>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">501 - 5,000 gp</cost>
+				<description type="formattedtext">
+					<p>T</p>
+					<h>Tier 1</h>
+					<p><b>Form of the Swaying Willow: </b>When you take the dodge action, you can choose not to be affected by any forced movement or attempt to cause you to be prone.</p>
+					<p></p>
+					<p><b>Form of the Rising Wind: </b>Your unarmed attacks now have a range of 20 ft.</p>
+					<p><b>Form of the Leech: </b>When you incapacitate a target or critically hit you regain 1 ki point.</p>
+					<p><b>Form of the Flying Dragon: </b>Once per turn, if you move at least 20 ft in a straight line and attack, you deal an additional damage equal to your martial arts die.</p>
+					<p><b>Form of the Spirit: </b>Your unarmed strikes deal force damage, and can target creatures on the ethereal plane.</p>
+					<p><b>Form of Flowing Strikes: </b>Once per turn, if you miss with an attack you may make a free unarmed attack on a target within 5 ft.</p>
+					<p><b>Form of the Leaping Cricket: </b>You can add your Dexterity modifier to the heigh of your High Jump (in addition to your Strength modifier). You can use your Dexterity score instead of your Strength for calculating your Long Jump distance.</p>
+					<p></p>
+					<p><b>Deja Fu: </b>Once per long rest, on your turn you can attempt three different simultaneous scenarios. Each turn much have a different action. Once all three turns are complete and dice have been rolled, you must choose which one of these turns to enact into reality.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Bracers of a Thousand Forms</name>
+				<nonid_name type="string">Bracers</nonid_name>
+				<nonidentified type="string">Bracers made of a finely woven fabric covered with intricate patterns</nonidentified>
+				<rarity type="string">Rare (Requires Attunement)</rarity>
+				<type type="string">Wondrous Item</type>
+				<weight type="number">1</weight>
+			</id-00005>
+			<id-00006>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">250 gp</cost>
+				<damage type="string">1d10 force</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<linklist>
+						<link class="power" recordname="reference.spelldata.eldritchblast@DD PHB Deluxe">Eldritch Blast</link>
+					</linklist>
+					<p>This weapon is designed to be used as a focus to channel your Eldritch Blast. If you don't have the Eldritch Blast cantrip you cannot fire this weapon</p>
+					<p><b>Fan Fire. </b>This revolver is specially modified to allow rapid emptying of the chamber. When you use your action to cast Eldritch Blast, you can use your bonus action to fan the hammer of the revolver and cast an additional Eldritch Blast on the same turn. You need a free hand to perform the Fan Fire technique and it can't be used again until the next dawn.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">The Last Word</name>
+				<nonid_name type="string">Hand Cannon</nonid_name>
+				<nonidentified type="string">This exotic revolver is covered in ornate engravings and lavish gilding. As you hold it in your hand you can feel it thrum with barely contained arcane energy.</nonidentified>
+				<properties type="string">Ammunition (range 100/120), light, magic</properties>
+				<rarity type="string">Uncommon (Requires Attunement By A Warlock With Eldritch Blast)</rarity>
+				<subtype type="string">Special</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">3</weight>
+			</id-00006>
+			<id-00007>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">100gp</cost>
+				<damage type="string">2d4 slashing</damage>
+				<description type="formattedtext">
+					<p>The double scimitar is the signature weapon of the Silverstand Bladesingers. A haft of fine wood supports a long blade on either end. Forged with techniques honed over tens of thousands of years, these blades are strong, sharp, and remarkably light. Each scimitar is a masterpiece, and as a result the double scimitar is an expensive weapon, but few people ever have an opportunity to purchase one.</p>
+					<p><b>Special. </b>When you take the attack action and make a two-handed attack with a double-bladed scimitar, you can use a bonus action to make a melee attack with the blade at the opposite end of the weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a d4, and it deals slashing damage.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Blades of Ashryn</name>
+				<nonid_name type="string">Double-bladed Scimitar</nonid_name>
+				<properties type="string">Finesse, special, two-handed, magic</properties>
+				<subtype type="string">Martial Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">6</weight>
+			</id-00007>
+			<id-00008>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">101-500 gp</cost>
+				<damage type="string">1d4 piercing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>This dagger has 3 charges. It regains all expended charges daily at dawn.</p>
+					<p>When you use your action to throw this dagger, but before it hits, you may use your bonus action to expend one of the charges and cast <i>Misty Step </i>targeting the dagger's location.</p>
+					<p>You emerge holding the dagger, and if the target is a creature, you emerge adjacent to the target. If you miss with the attack, the DM determines where you teleport to.</p>
+					<p></p>
+					<linklist>
+						<link class="power" recordname="reference.spelldata.mistystep@DD PHB Deluxe">Misty Step</link>
+					</linklist>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Mist Dagger</name>
+				<nonid_name type="string">Watered Steel Dagger</nonid_name>
+				<nonidentified type="string">This dagger has a distinctive pattern of banding and mottling reminiscent of flowing water. Condensed water constantly drips from the blade.</nonidentified>
+				<properties type="string">Finesse, light, thrown (range 20/60), magic</properties>
+				<rarity type="string">Uncommon (Requires Attunement)</rarity>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">1</weight>
+			</id-00008>
+			<id-00009>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50 - 100 gp</cost>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>This stick of chalk, about four inches long, can be used indefinitely without getting any smaller.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Endless Chalk</name>
+				<nonid_name type="string">Chalk</nonid_name>
+				<nonidentified type="string">It looks like ordinary chalk...</nonidentified>
+				<properties type="string">Magic</properties>
+				<rarity type="string">Common</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat of Vermin</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat</name>
+					</id-00002>
+				</spells>
+				<type type="string">Wondrous Item</type>
+				<weight type="number">0.25</weight>
+			</id-00009>
+			<id-00010>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50 - 100 gp</cost>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>Any object slipped through this iron loop will have its gravity reversed for the next three seconds. This includes liquids.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Loop of Gravity Reversal</name>
+				<nonid_name type="string">Iron loop</nonid_name>
+				<nonidentified type="string">An iron loop with about a 2 inch diameter.</nonidentified>
+				<properties type="string">Magic</properties>
+				<rarity type="string">Common</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat of Vermin</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat</name>
+					</id-00002>
+				</spells>
+				<type type="string">Wondrous Item</type>
+				<weight type="number">0.25</weight>
+			</id-00010>
+			<id-00011>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">80 gp</cost>
+				<damage type="string">2d4 slashing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>The bladestaff is the signature weapon of the Silverstand Bladesingers. A long haft of fine wood supports a curved elven blade. Forged with techniques honed over tens of thousands of years, these blades are strong, sharp, and remarkably light. Each bladestaff is a masterpiece, and as a result this an expensive weapon, but few people ever have an opportunity to purchase one.</p>
+					<p></p>
+					<p><b>Guardian.</b> The bearer gains a +2 bonus to initiative rolls if they aren't incapacitated. As long as the bearer is first in the initiative order, their speed increases by 5 feet.</p>
+					<p></p>
+					<p><b>Cursed: Crone's Disease. </b>This weapon has been corrupted by evils of Dreadwood and must be cleansed.<b> </b></p>
+					<p>Every night you are plagued by horrible visions and nightmares. As the corruptions spreads, your body begins to twist and warp - your nose may become hooked, your hands become claw-like, or your skin puckers and breaks out in boils. In addition, grass and plants around you start to wither and rot; if you make or handle food, it spoils; if you drink from a shared pitcher, it goes sour.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Razorwind</name>
+				<nonid_name type="string">Bladestaff</nonid_name>
+				<nonidentified type="string">This weapon seems to sparkle with light</nonidentified>
+				<properties type="string">Finesse, special, two-handed, magic</properties>
+				<rarity type="string">Uncommon</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Moon-Touched Sword</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Longsword</name>
+					</id-00002>
+				</spells>
+				<subtype type="string">Bladestaff</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">3</weight>
+			</id-00011>
+			<id-00013>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">101 - 500 gp</cost>
+				<damage type="string">1d12 slashing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p><b>Siege weapon: </b>This weapon does maximum damage against man-made, inanimate objects.</p>
+					<p></p>
+					<p><b>Sunder. </b>Once per day, you can slam this axe into an object or the ground, causing the effect of the <i>shatter </i>spell centered on yourself. You automatically fail the save, but for others the spell save DC equals 8 + your proficiency bonus + your Strength modifier.</p>
+					<linklist>
+						<link class="power" recordname="reference.spelldata.shatter@DD PHB Deluxe"><b>Spell: </b></link>Shatter</linklist>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Sunder</name>
+				<nonid_name type="string">Refined Greataxe</nonid_name>
+				<nonidentified type="string">The attention to detail and the materials used mark this weapon out as special.</nonidentified>
+				<properties type="string">Heavy, two-handed, magic</properties>
+				<rarity type="string">Uncommon</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Weapon, +1</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Greataxe</name>
+					</id-00002>
+				</spells>
+				<subtype type="string">Martial Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">7</weight>
+			</id-00013>
+			<id-00014>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50 gp</cost>
+				<damage type="string">1d8 slashing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p><b>Song Craft. </b>Whenever this weapon is used to strike a foe, its bearer hears a fragment of an ancient song in a language they almost recognise.</p>
+					<p><b>Of the Sea. </b>If this weapon is not immersed in salt water at least once every 3 days, it loses all magic properties and becomes a normal axe until it is reimmersed. In addition, its bearer has advantage on Strength (Athletics) checks to swim.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Leviathan's Cutback</name>
+				<nonid_name type="string">Leviathan's Cutback</nonid_name>
+				<nonidentified type="string">Leviathan's Cutback is a practical, but vicious looking axe. The axe head is a dark grey steel with a slight mottling to the cast. It is engraved with eldritch runes that pulsate with inner blue light. As you watch, the runes shift and ripple in your vision as if you're looking at them underwater.\n\nNo matter how long you're away from water, this wicked looking axe looks like it's just emerged from the sea - with drops of salty water constantly falling from the blade.\n\n</nonidentified>
+				<properties type="string">Versatile (1d10)</properties>
+				<rarity type="string">Unique</rarity>
+				<subtype type="string">Martial Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">4</weight>
+			</id-00014>
+			<id-00015>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">1 sp</cost>
+				<damage type="string">1d4 bludgeoning</damage>
+				<description type="formattedtext">
+					<p>This silken cloth is enchanted using a unique blend of abjuration and evocation magic, allowing it to be used for a number of purposes. At any one time it can be one of four colors: red, yellow, green, or blue. You can change the Chromacloth's color using an action on your turn to one of these four colors.</p>
+					<p></p>
+					<p>The cloth can be fashioned to be an effective sling: dealing damage as a sling normally would, but changing the damage type of the ammunition to match the sling's color. Refer to the table below for a reference of the Chromacloth's associated damage types:</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">0</locked>
+				<name type="string">Chromacloth</name>
+				<nonid_name type="string">Colorful ribbon</nonid_name>
+				<properties type="string">Ammunition (range 30/120)</properties>
+				<subtype type="string">Simple Ranged Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">0</weight>
+			</id-00015>
+			<id-00016>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50 - 100 gp</cost>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>Whoever wears this white, loose shirt can jump one foot higher than their strength score would otherwise permit. The shirt also seems to constantly flow in a nonexistant sea breeze.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Shirt of the Buccaneer</name>
+				<nonid_name type="string">White shirt</nonid_name>
+				<nonidentified type="string">This shirt looks like the simple garb a sailor would commonly wear. Closer inspection reveals finely detailed patterns around the hem.</nonidentified>
+				<properties type="string">Magic</properties>
+				<rarity type="string">Common</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat of Vermin</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Hat</name>
+					</id-00002>
+				</spells>
+				<type type="string">Wondrous Item</type>
+				<weight type="number">0.25</weight>
+			</id-00016>
+			<id-00017>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">60 gp</cost>
+				<damage type="string">1d4 piercing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>While holding this dagger, the bearer gains a +1 bonus to Wisdom (Medicine) checks.</p>
+					<p><b>Special: </b>This weapon uses your Wisdom, instead of Strength or Dexterity, for the attack and damage rolls.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Surgeon's scalpel</name>
+				<nonid_name type="string">Scalpel</nonid_name>
+				<nonidentified type="string">The pommel of this thin blade contains a small crystal sphere within which a deep red liquid sloshes about. The liquid glows slightly when the dagger is held.</nonidentified>
+				<properties type="string">Special, light, thrown (range 20/60), magic</properties>
+				<rarity type="string">Uncommon</rarity>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">1</weight>
+			</id-00017>
+			<id-00018>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">60 gp</cost>
+				<damage type="string">1d4 piercing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>While holding this dagger, the bearer gains a +1 bonus to Wisdom (Medicine) checks.</p>
+					<p><b>Special: </b>This weapon uses your Wisdom, instead of Strength or Dexterity, for the attack and damage rolls.</p>
+					<p></p>
+					<h>Hidden properties</h>
+					<p>When this dagger is stabbed into a creature, they first take damage as per normal, then are healed for 1d8 + WIS hitpoints. This property can only be used in combat.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Surgeon's scalpel (post stab)</name>
+				<nonid_name type="string">Scalpel</nonid_name>
+				<nonidentified type="string">The pommel of this thin blade contains a small crystal sphere within which a deep red liquid sloshes about. The liquid glows slightly when the dagger is held.</nonidentified>
+				<properties type="string">Special, light, thrown (range 20/60), magic</properties>
+				<rarity type="string">Uncommon</rarity>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">1</weight>
+			</id-00018>
+			<id-00019>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">100 gp</cost>
+				<damage type="string">1d6 slashing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>This light axe seems to soar through the air unto its targets.  This weapon has the finesse property and attacking at long range doesn't impose disadvantage on ranged weapon attack rolls made with the axe. If the axe is within 30 feet of you, you can recall it to your hand as a bonus action.</p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Pathfinder's Tomahawk</name>
+				<nonid_name type="string">Balanced throwing axe</nonid_name>
+				<nonidentified type="string">This slender axe is light in the hand, painted with the imagery of a screaming hawk and ornamented with a set of colorful feathers.</nonidentified>
+				<properties type="string">Finesse, light, thrown (range 20/60)</properties>
+				<rarity type="string">Uncommon</rarity>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00019>
+			<id-00020>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">100 gp</cost>
+				<damage type="string">1d6 piercing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>When you hit a creature within 30 feet with a ranged attack using this harpoon, you can choose for the weapon to stick into the target. </p>
+					<p>While stuck in a target (no more than one size larger than you), you can use a bonus action to try and pull the target towards you. You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check. You succeed automatically if the target is incapacitated. If you succeed, the target is pulled up to 15 feet in a straight line towards you. If your target succeeds, the harpoon detaches and returns to your hand.</p>
+					<p>In addition, if the target attempts to move more than 30 feet away from you, their speed is halved and they drag you along with them, unless you use a reaction to release the rope.</p>
+					<p>A target can detach the harpoon with an action.</p>
+					<p></p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Whaler's Harpoon</name>
+				<nonid_name type="string">Barbed javelin</nonid_name>
+				<nonidentified type="string">This barbed javelin is connected to a length of braided rope.</nonidentified>
+				<properties type="string">Thrown (range 30/120)</properties>
+				<rarity type="string">Uncommon</rarity>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00020>
+			<id-00021>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">20 gp</cost>
+				<damage type="string">1d4 piercing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<linklist>
+						<link class="power" recordname="reference.spelldata.hunter_smark@DD PHB Deluxe"><b>Spell:</b></link> Hunter's Mark</linklist>
+					<p>When you hit a creature with this dart, you can choose to immediately cast the hunter's mark spell at 1st level targeting the creature. Once used, this property can't be used again until the next dawn.</p>
+					<p></p>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Tracking Dart</name>
+				<nonidentified type="string">A slender dart with bright red fletchings. </nonidentified>
+				<properties type="string">Finesse, thrown (range 20/60)</properties>
+				<rarity type="string">Uncommon (requires attunement)</rarity>
+				<subtype type="string">Simple Ranged Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">0.25</weight>
+			</id-00021>
+			<id-00022>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">80 gp</cost>
+				<damage type="string">2d4 slashing</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>The bladestaff is the signature weapon of the Silverstand Bladesingers. A long haft of fine wood supports a curved elven blade. Forged with techniques honed over tens of thousands of years, these blades are strong, sharp, and remarkably light. Each bladestaff is a masterpiece, and as a result this an expensive weapon, but few people ever have an opportunity to purchase one.</p>
+					<p></p>
+					<p><b>Moon-touched bladestaff</b></p>
+					<p>In darkness, the unsheathed blade of this weapon sheds moonlight, creating bright light in a 15-foot radius and dim light for an additional 15 feet.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Elven Bladestaff</name>
+				<nonid_name type="string">Shiny Bladestaff</nonid_name>
+				<nonidentified type="string">This weapon seems to sparkle with light</nonidentified>
+				<properties type="string">Finesse, magic</properties>
+				<rarity type="string">Common</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Moon-Touched Sword</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Longsword</name>
+					</id-00002>
+				</spells>
+				<subtype type="string">Bladestaff</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">3</weight>
+			</id-00022>
+			<id-00023>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">50 - 100 gp</cost>
+				<damage type="string">1d4 bludgeoning</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>You can use your action to strike this hammer on an object and cast the &#34;Mending&#34; cantrip on it. The hammer's strike does not damage the object further.</p>
+				</description>
+				<isidentified type="number">0</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Hammer of Mending</name>
+				<nonid_name type="string">Burnished Light Hammer</nonid_name>
+				<nonidentified type="string">This hammer seems cast from bronze, and catches the light with a warm lustrous glow.</nonidentified>
+				<properties type="string">Light, thrown (range 20/60)</properties>
+				<rarity type="string">Common</rarity>
+				<spells>
+					<id-00001>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Moon-Touched Sword</name>
+					</id-00001>
+					<id-00002>
+						<link type="windowreference">
+							<class></class>
+							<recordname></recordname>
+						</link>
+						<name type="string">Scimitar</name>
+					</id-00002>
+				</spells>
+				<subtype type="string">Simple Melee Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">2</weight>
+			</id-00023>
+			<id-00024>
+				<ac type="number">0</ac>
+				<bonus type="number">0</bonus>
+				<cost type="string">120 gp</cost>
+				<damage type="string">2d6 bludgeoning</damage>
+				<description type="formattedtext">
+					<h>Description</h>
+					<p>The head of this heavy forging hammer is persistently red hot. The hammer deals an extra 1d4 fire damage.</p>
+					<p>When you hit a creature with the hammer, you can immediately cast the <i>heat metal </i>spell (DC 13) targeting an object it's holding or wearing. For the spell's duration, the hammer's head goes cold and does not deal extra fire damage. Once the spell has been cast, this property can't be used again until the next dawn.</p>
+					<linklist>
+						<link class="power" recordname="reference.spelldata.heatmetal@DD PHB Deluxe"><b>Spell:</b></link> Heat Metal</linklist>
+				</description>
+				<isidentified type="number">1</isidentified>
+				<locked type="number">1</locked>
+				<name type="string">Glowforge</name>
+				<nonid_name type="string">Heavy forging hammer</nonid_name>
+				<nonidentified type="string">The head of this heavy forging hammer glows red hot.</nonidentified>
+				<properties type="string">Heavy, two-handed, magic</properties>
+				<rarity type="string">Uncommon</rarity>
+				<subtype type="string">Martial Weapons</subtype>
+				<type type="string">Weapon</type>
+				<weight type="number">10</weight>
+			</id-00024>
+		</category>
+	</item>
+	<library>
+		<zensawesomedmmodsandstuff static="true">
+			<categoryname type="string">Supplement</categoryname>
+			<name type="string">zensawesomedmmodsandstuff</name>
+			<entries>
+				<battle>
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">Encounters</name>
+					<recordtype type="string">battle</recordtype>
+				</battle>
+				<image>
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">Images &#38; Maps</name>
+					<recordtype type="string">image</recordtype>
+				</image>
+				<item>
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">Items</name>
+					<recordtype type="string">item</recordtype>
+				</item>
+				<npc>
+					<librarylink type="windowreference">
+						<class>reference_list</class>
+						<recordname>..</recordname>
+					</librarylink>
+					<name type="string">NPCs</name>
+					<recordtype type="string">npc</recordtype>
+				</npc>
+			</entries>
+		</zensawesomedmmodsandstuff>
+	</library>
+	<npc>
+		<category name="" baseicon="0" decalicon="0">
+			<id-00001>
+				<abilities>
+					<charisma>
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +0 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</desc>
+						<name type="string">Bite</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">0</cr>
+				<hd type="string">(1d4)</hd>
+				<hp type="number">2</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Fox</name>
+				<reactions>
+				</reactions>
+				<senses type="string">darkvision 30ft., passive Perception 13</senses>
+				<size type="string">Tiny</size>
+				<skills type="string">Perception +3, Stealth +4</skills>
+				<speed type="string">40 ft., burrow 5ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token"></token>
+				<traits>
+					<id-00001>
+						<desc type="string">The fox has advantage on Wisdom (Perception) checks that rely on hearing or smell.</desc>
+						<name type="string">Keen Hearing and Smell</name>
+					</id-00001>
+				</traits>
+				<type type="string">beast</type>
+				<xp type="number">10</xp>
+			</id-00001>
+			<id-00002>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 10 (3d6) necrotic damage. The target must succeed on a DC 10 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</desc>
+						<name type="string">Life Drain</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">chaotic evil</alignment>
+				<conditionimmunities type="string">charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious</conditionimmunities>
+				<cr type="string">1</cr>
+				<damageimmunities type="string">necrotic, poison</damageimmunities>
+				<damageresistances type="string">acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks</damageresistances>
+				<hd type="string">(5d8)</hd>
+				<hp type="number">22</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">understands all languages it knew in life but can't speak</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">0</locked>
+				<name type="string">Specter</name>
+				<reactions>
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 10</senses>
+				<size type="string">Medium</size>
+				<speed type="string">0 ft., fly 50 ft. (hover)</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/specter.png@DD5E SRD Bestiary</token>
+				<traits>
+					<id-00001>
+						<desc type="string">The specter can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</desc>
+						<name type="string">Incorporeal Movement</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">While in sunlight, the specter has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</desc>
+						<name type="string">Sunlight Sensitivity</name>
+					</id-00002>
+				</traits>
+				<type type="string">undead</type>
+				<xp type="number">200</xp>
+			</id-00002>
+			<id-00003>
+				<abilities>
+					<charisma>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">3</bonus>
+						<score type="number">17</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">-3</bonus>
+						<score type="number">4</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">13</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage.</desc>
+						<name type="string">Bite</name>
+					</id-00001>
+					<id-00002>
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.</desc>
+						<name type="string">Claw</name>
+					</id-00002>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">1</cr>
+				<hd type="string">(4d10 + 12)</hd>
+				<hp type="number">34</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">Crag Cat</name>
+				<reactions>
+				</reactions>
+				<senses type="string">darkvision 60 ft.</senses>
+				<size type="string">Large</size>
+				<skills type="string">Stealth +7</skills>
+				<speed type="string">40 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p></p>
+				</text>
+				<token type="token">tokens/T.png@DD5E SRD Bestiary</token>
+				<traits>
+					<id-00002>
+						<desc type="string">If the cat moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the cat can make one bite attack against it as a bonus action.</desc>
+						<name type="string">Pounce</name>
+					</id-00002>
+					<id-00003>
+						<desc type="string">The cat cannot be targeted or detected by any divination magic or perceived through magical scrying sensors.</desc>
+						<name type="string">Nondetection</name>
+					</id-00003>
+					<id-00004>
+						<desc type="string">The cat has advantage on saving throws against any spell that tagets only the cat (not an area). If the cat&#146;s saving throw succeeds and the spell is of 7th level or lower, the spell has no effect on the cat and instead targets the caster.</desc>
+						<name type="string">Spell Turning</name>
+					</id-00004>
+				</traits>
+				<type type="string">beast</type>
+				<xp type="number">200</xp>
+			</id-00003>
+			<id-00004>
+				<abilities>
+					<charisma>
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actions>
+					<id-00001>
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 slashing damage.</desc>
+						<name type="string">Talons</name>
+					</id-00001>
+				</actions>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">0</cr>
+				<hd type="string">(1d4-1)</hd>
+				<hp type="number">1</hp>
+				<innatespells>
+				</innatespells>
+				<lairactions>
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+				</legendaryactions>
+				<locked type="number">1</locked>
+				<name type="string">House Griffon</name>
+				<reactions>
+				</reactions>
+				<senses type="string">passive Perception 13</senses>
+				<size type="string">Tiny</size>
+				<skills type="string">Perception +3, Stealth +4</skills>
+				<speed type="string">25 ft., fly 40 ft.</speed>
+				<spells>
+				</spells>
+				<text type="formattedtext">
+					<p>These small, domesticated griffons have the bodies of house cats and the heads, wings and forelimbs of hawks or falcons.</p>
+					<p>These creatures are commonly kept as pets and familiars and do wonders for keeping vermin populations under control. House griffons can be affectionate but independent and do equally well in and out of doors.</p>
+				</text>
+				<token type="token">tokens/griffon.png@DD MM Monster Manual</token>
+				<traits>
+					<id-00001>
+						<desc type="string">The griffon has advantage on Wisdom (Perception) checks that rely on sight.</desc>
+						<name type="string">Keen Sight</name>
+					</id-00001>
+				</traits>
+				<type type="string">beast</type>
+				<xp type="number">10</xp>
+			</id-00004>
+		</category>
+	</npc>
+</root>
