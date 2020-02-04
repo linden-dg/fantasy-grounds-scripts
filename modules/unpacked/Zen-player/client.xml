@@ -9691,6 +9691,457 @@
 				<weaponlist>
 				</weaponlist>
 			</id-00006>
+			<id-00008>
+				<abilities>
+					<charisma>
+						<bonus type="number">0</bonus>
+						<save type="number">2</save>
+						<savemodifier type="number">0</savemodifier>
+						<saveprof type="number">1</saveprof>
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<bonus type="number">0</bonus>
+						<save type="number">0</save>
+						<savemodifier type="number">0</savemodifier>
+						<saveprof type="number">0</saveprof>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<bonus type="number">0</bonus>
+						<save type="number">0</save>
+						<savemodifier type="number">0</savemodifier>
+						<saveprof type="number">0</saveprof>
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<bonus type="number">0</bonus>
+						<save type="number">0</save>
+						<savemodifier type="number">0</savemodifier>
+						<saveprof type="number">0</saveprof>
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<bonus type="number">0</bonus>
+						<save type="number">0</save>
+						<savemodifier type="number">0</savemodifier>
+						<saveprof type="number">0</saveprof>
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<bonus type="number">0</bonus>
+						<save type="number">2</save>
+						<savemodifier type="number">0</savemodifier>
+						<saveprof type="number">1</saveprof>
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<backgroundlink type="windowreference">
+					<class/>
+					<recordname/>
+				</backgroundlink>
+				<classes>
+					<id-00001>
+						<casterlevelinvmult type="number">1</casterlevelinvmult>
+						<casterpactmagic type="number">1</casterpactmagic>
+						<hddie type="dice">d8</hddie>
+						<hdused type="number">0</hdused>
+						<level type="number">1</level>
+						<name type="string">Warlock</name>
+						<shortcut type="windowreference">
+							<class>reference_class</class>
+							<recordname>reference.classdata.id-00003</recordname>
+						</shortcut>
+					</id-00001>
+				</classes>
+				<defenses>
+					<ac>
+						<armor type="number">0</armor>
+						<misc type="number">0</misc>
+						<prof type="number">1</prof>
+						<shield type="number">0</shield>
+						<temporary type="number">0</temporary>
+						<total type="number">10</total>
+					</ac>
+				</defenses>
+				<exp type="number">0</exp>
+				<expneeded type="number">0</expneeded>
+				<featurelist>
+					<id-00001>
+						<locked type="number">1</locked>
+						<name type="string">The Leviathan</name>
+						<source type="string">Warlock</source>
+						<text type="formattedtext">
+							<p>You have made a pact with a great sea monster, a leviathan. Known as destroyers of ships and bringers of storms, these creatures &#151; such as Krakens, Dragon Turtles, and Sea Serpents &#151; lurk in the deepest depths of the oceans, pursuing their own inscrutable ends. These beings are destructive by their very nature, but reward those who serve them on the surface, extending their influence beyond their watery domain.</p>
+							<h>Features</h>
+							<linklist>
+								<link class="reference_classfeature" recordname="reference.classdata.id-00003.features.id-00006">Expanded Spell List (Leviathan)</link>
+								<link class="reference_classfeature" recordname="reference.classdata.id-00003.features.id-00001">Sea's Favor</link>
+								<link class="reference_classfeature" recordname="reference.classdata.id-00003.features.id-00002">Acolyte of the Deep</link>
+								<link class="reference_classfeature" recordname="reference.classdata.id-00003.features.id-00003">Watery Grasp</link>
+								<link class="reference_classfeature" recordname="reference.classdata.id-00003.features.id-00004">Eldritch Diver</link>
+								<link class="reference_classfeature" recordname="reference.classdata.id-00003.features.id-00005">Leviathan's Wake</link>
+							</linklist>
+						</text>
+					</id-00001>
+					<id-00002>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Otherworldly Patron</name>
+						<source type="string">Warlock</source>
+						<specializationchoice type="number">1</specializationchoice>
+						<text type="formattedtext">
+							<p>At 1st level, you have struck a bargain with an otherworldly being of your choice: the Hexblade, the Raven Queen, the Seeker or the Undying Light, all of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.</p>
+						</text>
+					</id-00002>
+					<id-00003>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Acolyte of the Deep</name>
+						<source type="string">Warlock</source>
+						<specialization type="string">The Leviathan</specialization>
+						<specializationchoice type="number">0</specializationchoice>
+						<text type="formattedtext">
+							<p>Also starting at 1st level, you gain a swimming speed of 30 feet, and you learn the <i>shape water </i>cantrip, which counts as a warlock cantrip for you and doesn't count against your number of cantrips known.</p>
+							<linklist>
+								<link class="power" recordname="reference.spelldata.shapewater@DD Xanathar's Guide to Everything">Shape Water</link>
+							</linklist>
+						</text>
+					</id-00003>
+					<id-00004>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Expanded Spell List (Leviathan)</name>
+						<source type="string">Warlock</source>
+						<specialization type="string">The Leviathan</specialization>
+						<specializationchoice type="number">0</specializationchoice>
+						<text type="formattedtext">
+							<p>The Leviathan lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
+							<h>Leviathan Expanded Spells</h>
+							<linklist>
+								<link class="power" recordname="reference.spelldata.dissonantwhispers@DD PHB Deluxe"><b>1st Level: </b></link>Dissonant Whispers</linklist>
+								<link class="power" recordname="reference.spelldata.ensnaringstrike@DD PHB Deluxe"><b>1st Level: </b></link>Ensnaring Strike
+								<link class="power" recordname="reference.spelldata.blur@DD PHB Deluxe"><b>2nd Level: </b></link>Blur
+								<link class="power" recordname="reference.spelldata.gustofwind@DD PHB Deluxe"><b>2nd Level: </b></link>Gust of Wind
+								<link class="power" recordname="reference.spelldata.wallofwater@DD Xanathar's Guide to Everything"><b>3rd Level: </b></link>Wall of Water
+								<link class="reference_spell" recordname="reference.spelldata.elementalweapon@*"><b>3rd Level: </b></link>Elemental Weapon
+								<link class="power" recordname="reference.spelldata.controlwater@DD PHB Deluxe"><b>4th Level: </b></link>Control Water
+								<link class="power" recordname="reference.spelldata.evard_sblacktentacles@DD PHB Deluxe"><b>4th Level: </b></link>Evard's Black Tentacles
+								<link class="power" recordname="reference.spelldata.coneofcold@DD PHB Deluxe"><b>5th Level: </b></link>Cone of Cold
+								<link class="power" recordname="reference.spelldata.maelstrom@DD Xanathar's Guide to Everything"><b>5th Level: </b></link>Maelstrom
+						</text>
+					</id-00004>
+					<id-00005>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Sea's Favor</name>
+						<source type="string">Warlock</source>
+						<specialization type="string">The Leviathan</specialization>
+						<specializationchoice type="number">0</specializationchoice>
+						<text type="formattedtext">
+							<p>At 1st level, you gain proficiency with shields and martial weapons.</p>
+							<p>In addition, when attacking with a melee weapon that you are proficient with and that lacks the two-handed property, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls.</p>
+						</text>
+					</id-00005>
+					<id-00006>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Pact Magic</name>
+						<source type="string">Warlock</source>
+						<text type="formattedtext">
+							<p>Your arcane research and the magic bestowed on you by your patron have given you facility with spells.</p>
+							<h>Cantrips</h>
+							<p>You know two cantrips of your choice from the warlock spell list. You learn additional warlock cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Warlock table.</p>
+							<h>Spell Slots</h>
+							<p>The Warlock table shows how many spell slots you have. The table also shows what the level of those slots is; all of your spell slots are the same level. To cast one of your warlock spells of 1st level or higher, you must expend a spell slot. You regain all expended spell slots when you finish a short or long rest.</p>
+							<p>For example, when you are 5th level, you have two 3rd-level spell slots. To cast the 1st-level spell thunderwave, you must spend one of those slots, and you cast it as a 3rd-level spell.</p>
+							<h>Spells Known of 1st Level and Higher</h>
+							<p>At 1st level, you know two 1st-level spells of your choice from the warlock spell list.</p>
+							<p>The Spells Known column of the Warlock table shows when you learn more warlock spells of your choice of 1st level and higher. A spell you choose must be of a level no higher than what's shown in the table's Slot Level column for your level. When you reach 6th level, for example, you learn a new warlock spell, which can be 1st, 2nd, or 3rd level.</p>
+							<p>Additionally, when you gain a level in this class, you can choose one of the warlock spells you know and replace it with another spell from the warlock spell list, which also must be of a level for which you have spell slots.</p>
+							<h>Spellcasting Ability</h>
+							<p>Charisma is your spellcasting ability for your warlock spells, so you use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a warlock spell you cast and when making an attack roll with one.</p>
+							<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Charisma modifier</p>
+							<p><b>Spell attack modifier </b>= your proficiency bonus + your Charisma modifier</p>
+							<h>Spellcasting Focus</h>
+							<p>You can use an arcane focus as a spellcasting focus for your warlock spells.</p>
+						</text>
+					</id-00006>
+				</featurelist>
+				<hp>
+					<deathsavefail type="number">0</deathsavefail>
+					<deathsavesuccess type="number">0</deathsavesuccess>
+					<temporary type="number">0</temporary>
+					<total type="number">8</total>
+					<wounds type="number">0</wounds>
+				</hp>
+				<initiative>
+					<misc type="number">0</misc>
+					<temporary type="number">0</temporary>
+					<total type="number">0</total>
+				</initiative>
+				<level type="number">1</level>
+				<name type="string">Test</name>
+				<perception type="number">10</perception>
+				<perceptionmodifier type="number">0</perceptionmodifier>
+				<powerdisplaymode type="string">action</powerdisplaymode>
+				<powergroup>
+					<id-00001>
+						<castertype type="string">memorization</castertype>
+						<name type="string">Spells</name>
+						<stat type="string">charisma</stat>
+					</id-00001>
+				</powergroup>
+				<powermeta>
+					<pactmagicslots1>
+						<max type="number">1</max>
+					</pactmagicslots1>
+					<pactmagicslots2>
+						<max type="number">0</max>
+					</pactmagicslots2>
+					<pactmagicslots3>
+						<max type="number">0</max>
+					</pactmagicslots3>
+					<pactmagicslots4>
+						<max type="number">0</max>
+					</pactmagicslots4>
+					<pactmagicslots5>
+						<max type="number">0</max>
+					</pactmagicslots5>
+					<pactmagicslots6>
+						<max type="number">0</max>
+					</pactmagicslots6>
+					<pactmagicslots7>
+						<max type="number">0</max>
+					</pactmagicslots7>
+					<pactmagicslots8>
+						<max type="number">0</max>
+					</pactmagicslots8>
+					<pactmagicslots9>
+						<max type="number">0</max>
+					</pactmagicslots9>
+					<spellslots1>
+						<max type="number">0</max>
+					</spellslots1>
+					<spellslots2>
+						<max type="number">0</max>
+					</spellslots2>
+					<spellslots3>
+						<max type="number">0</max>
+					</spellslots3>
+					<spellslots4>
+						<max type="number">0</max>
+					</spellslots4>
+					<spellslots5>
+						<max type="number">0</max>
+					</spellslots5>
+					<spellslots6>
+						<max type="number">0</max>
+					</spellslots6>
+					<spellslots7>
+						<max type="number">0</max>
+					</spellslots7>
+					<spellslots8>
+						<max type="number">0</max>
+					</spellslots8>
+					<spellslots9>
+						<max type="number">0</max>
+					</spellslots9>
+				</powermeta>
+				<powermode type="string">standard</powermode>
+				<powers>
+					<id-00001>
+						<actions>
+							<id-00001>
+								<durmod type="number">1</durmod>
+								<durunit type="string">minute</durunit>
+								<label type="string">Bane; ATK: -1d4; SAVE: -1d4</label>
+								<order type="number">1</order>
+								<type type="string">effect</type>
+							</id-00001>
+							<id-00002>
+								<durmod type="number">1</durmod>
+								<durunit type="string">minute</durunit>
+								<label type="string">Bane (C)</label>
+								<order type="number">2</order>
+								<targeting type="string">self</targeting>
+								<type type="string">effect</type>
+							</id-00002>
+						</actions>
+						<cast type="number">0</cast>
+						<castingtime type="string">1 action</castingtime>
+						<components type="string">V, S, M (a drop of blood)</components>
+						<description type="formattedtext">
+							<p>Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>
+							<p>At Higher Levels.</p>
+							<p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+						</description>
+						<duration type="string">Concentration, up to 1 minute</duration>
+						<group type="string">Spells</group>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Bane (30) (C)</name>
+						<prepared type="number">0</prepared>
+						<range type="string">30 feet</range>
+						<ritual type="number">0</ritual>
+						<school type="string">Enchantment</school>
+						<source type="string">Bard, Cleric, Eldritch Invocations</source>
+					</id-00001>
+					<id-00002>
+						<actions>
+							<id-00001>
+								<durmod type="number">1</durmod>
+								<durunit type="string">minute</durunit>
+								<label type="string">Bless (C)</label>
+								<order type="number">1</order>
+								<targeting type="string">self</targeting>
+								<type type="string">effect</type>
+							</id-00001>
+							<id-00002>
+								<durmod type="number">1</durmod>
+								<durunit type="string">minute</durunit>
+								<label type="string">Bless; ATK: 1d4; SAVE: 1d4</label>
+								<order type="number">2</order>
+								<type type="string">effect</type>
+							</id-00002>
+						</actions>
+						<cast type="number">0</cast>
+						<castingtime type="string">1 action</castingtime>
+						<components type="string">V, S, M (a sprinkling of holy water)</components>
+						<description type="formattedtext">
+							<p>You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw.</p>
+							<p>At Higher Levels.</p>
+							<p>When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+						</description>
+						<duration type="string">Concentration, up to 1 minute</duration>
+						<group type="string">Spells</group>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Bless (30) (C)</name>
+						<prepared type="number">0</prepared>
+						<range type="string">30 feet</range>
+						<ritual type="number">0</ritual>
+						<school type="string">Enchantment</school>
+						<source type="string">Cleric, Cleric Life Domain, Paladin</source>
+					</id-00002>
+					<id-00003>
+						<actions>
+							<id-00001>
+								<atktype type="string">ranged</atktype>
+								<order type="number">1</order>
+								<type type="string">cast</type>
+							</id-00001>
+							<id-00002>
+								<damagelist>
+									<id-00001>
+										<bonus type="number">0</bonus>
+										<dice type="dice">d10</dice>
+										<type type="string">force</type>
+									</id-00001>
+								</damagelist>
+								<order type="number">2</order>
+								<type type="string">damage</type>
+							</id-00002>
+						</actions>
+						<cast type="number">0</cast>
+						<castingtime type="string">1 action</castingtime>
+						<components type="string">V, S</components>
+						<description type="formattedtext">
+							<p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p>
+							<p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>
+						</description>
+						<duration type="string">Instantaneous</duration>
+						<group type="string">Spells</group>
+						<level type="number">0</level>
+						<locked type="number">1</locked>
+						<name type="string">Eldritch Blast</name>
+						<prepared type="number">0</prepared>
+						<range type="string">120 feet</range>
+						<school type="string">Evocation</school>
+						<source type="string">Warlock</source>
+					</id-00003>
+					<id-00004>
+						<actions>
+							<id-00001>
+								<onmissdamage type="string">half</onmissdamage>
+								<order type="number">1</order>
+								<savemagic type="number">1</savemagic>
+								<savetype type="string">dexterity</savetype>
+								<type type="string">cast</type>
+							</id-00001>
+							<id-00002>
+								<damagelist>
+									<id-00001>
+										<bonus type="number">0</bonus>
+										<dice type="dice">d6,d6,d6</dice>
+										<type type="string">fire</type>
+									</id-00001>
+								</damagelist>
+								<order type="number">2</order>
+								<type type="string">damage</type>
+							</id-00002>
+						</actions>
+						<cast type="number">0</cast>
+						<castingtime type="string">1 action</castingtime>
+						<components type="string">V, S</components>
+						<description type="formattedtext">
+							<p>As you hold your hands with thumbs touching and fingers spread, a thin sheet of flames shoots forth from your outstretched fingertips. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire damage on a failed save, or half as much damage on a successful one.</p>
+							<p>The fire ignites any flammable objects in the area that aren't being worn or carried.</p>
+							<p>At Higher Levels.</p>
+							<p>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+						</description>
+						<duration type="string">Instantaneous</duration>
+						<group type="string">Spells</group>
+						<level type="number">1</level>
+						<locked type="number">1</locked>
+						<name type="string">Burning Hands (S-15)</name>
+						<prepared type="number">0</prepared>
+						<range type="string">Self (15-foot cone)</range>
+						<ritual type="number">0</ritual>
+						<school type="string">Evocation</school>
+						<source type="string">Cleric Light Domain, Eldritch Knight, Warlock (Fiend), Monk, Sorcerer, Wizard, Arcane Trickster</source>
+					</id-00004>
+				</powers>
+				<profbonus type="number">2</profbonus>
+				<proficiencylist>
+					<id-00001>
+						<name type="string">Weapon: Simple weapon</name>
+					</id-00001>
+					<id-00002>
+						<name type="string">Armor: Light armor</name>
+					</id-00002>
+				</proficiencylist>
+				<racelink type="windowreference">
+					<class/>
+					<recordname/>
+				</racelink>
+				<skilllist>
+					<id-00001>
+						<name type="string">Perception</name>
+						<stat type="string">wisdom</stat>
+					</id-00001>
+					<id-00002>
+						<name type="string">Deception</name>
+						<prof type="number">1</prof>
+						<stat type="string">charisma</stat>
+					</id-00002>
+					<id-00003>
+						<name type="string">Intimidation</name>
+						<prof type="number">1</prof>
+						<stat type="string">charisma</stat>
+					</id-00003>
+				</skilllist>
+				<speed>
+					<armor type="number">0</armor>
+					<base type="number">0</base>
+					<misc type="number">0</misc>
+					<temporary type="number">0</temporary>
+					<total type="number">0</total>
+				</speed>
+				<token type="token"/>
+				<weaponlist>
+				</weaponlist>
+			</id-00008>
 		</category>
 	</pregencharsheet>
 	<reference static="true">
@@ -11240,7 +11691,7 @@
 						</id-00024>
 						<id-00025>
 							<level type="number">0</level>
-							<locked type="number">1</locked>
+							<locked type="number">0</locked>
 							<name type="string">Fighting Style: Archery</name>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
@@ -11709,14 +12160,14 @@
 							<locked type="number">1</locked>
 							<name type="string">The Leviathan</name>
 							<text type="formattedtext">
-								<p>You have made a pact with a great sea monster, a leviathan. Known as destroyers of ships and bringers of storms, these creatures &#151; such as Krakens, Dragon Turtles, and Sea Serpents &#151; lurk in the deepest depths of the oceans, pursuing their own inscrutable ends. These beings are destructive by their very nature, but reward those who serve them on the surface, extending their influence beyond their watery domain.</p>
+								<p>You have made a pact with a great sea monster, a leviathan. Known as destroyers of ships and bringers of storms, these creatures - such as Krakens, Dragon Turtles, and Sea Serpents - lurk in the deepest depths of the oceans, pursuing their own inscrutable ends. These beings are destructive by their very nature, but reward those who serve them on the surface, extending their influence beyond their watery domain.</p>
 								<h>Features</h>
 								<linklist>
 									<link class="reference_classfeature" recordname="....features.id-00006">Expanded Spell List (Leviathan)</link>
 									<link class="reference_classfeature" recordname="....features.id-00001">Sea's Favor</link>
-									<link class="reference_classfeature" recordname="....features.id-00002">Acolyte of the Deep</link>
-									<link class="reference_classfeature" recordname="....features.id-00003">Watery Grasp</link>
-									<link class="reference_classfeature" recordname="....features.id-00004">Eldritch Diver</link>
+									<link class="reference_classfeature" recordname="....features.id-00008">Curse of the Deep</link>
+									<link class="reference_classfeature" recordname="....features.id-00009">Dark Escape</link>
+									<link class="reference_classfeature" recordname="....features.id-00004">Scion of the Depths</link>
 									<link class="reference_classfeature" recordname="....features.id-00005">Leviathan's Wake</link>
 								</linklist>
 							</text>
@@ -11823,23 +12274,13 @@
 							<specialization type="string">The Leviathan</specialization>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
-								<p>At 1st level, you gain proficiency with shields and martial weapons.</p>
-								<p>In addition, when attacking with a melee weapon that you are proficient with and that lacks the two-handed property, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls.</p>
-							</text>
-						</id-00001>
-						<id-00002>
-							<level type="number">1</level>
-							<locked type="number">1</locked>
-							<name type="string">Acolyte of the Deep</name>
-							<specialization type="string">The Leviathan</specialization>
-							<specializationchoice type="number">0</specializationchoice>
-							<text type="formattedtext">
-								<p>Also starting at 1st level, you gain a swimming speed of 30 feet, and you learn the <i>shape water </i>cantrip, which counts as a warlock cantrip for you and doesn't count against your number of cantrips known.</p>
+								<p>Starting at 1st level, you gain proficiency with Scimitars, Tridents and Nets and can use your Charisma modifier for the attack and damage rolls of these and simple weapons.</p>
+								<p>In addition you learn the <i>shape water</i> cantrip, which counts as a warlock cantrip for you and doesn't count against your number of cantrips known.'</p>
 								<linklist>
 									<link class="power" recordname="reference.spelldata.shapewater@DD Xanathar's Guide to Everything">Shape Water</link>
 								</linklist>
 							</text>
-						</id-00002>
+						</id-00001>
 						<id-00003>
 							<level type="number">6</level>
 							<locked type="number">1</locked>
@@ -11855,11 +12296,12 @@
 						<id-00004>
 							<level type="number">10</level>
 							<locked type="number">1</locked>
-							<name type="string">Eldritch Diver</name>
+							<name type="string">Scion of the Depths</name>
 							<specialization type="string">The Leviathan</specialization>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
-								<p>Starting at 10th level, you become accustomed to the dark, cold, and crushing depths of the ocean. You can breathe air and water, have resistance to cold damage, and ignore any of the drawbacks caused by a deep, underwater environment.</p>
+								<p>Starting at 10th level, you become accustomed to the dark, cold, and crushing depths of the ocean. You gain resistance to cold damage, ignore any of the drawbacks caused by a deep, underwater environment, and gain darkvision out to a range of 120 feet. </p>
+								<p>Additionally you have advantage on Dexterity (Stealth) checks made to Hide while at least partially submerged in water</p>
 							</text>
 						</id-00004>
 						<id-00005>
@@ -11884,18 +12326,48 @@
 								<p>The Leviathan lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p>
 								<h>Leviathan Expanded Spells</h>
 								<linklist>
-									<link class="power" recordname="reference.spelldata.absorbelements@DD Xanathar's Guide to Everything"><b>1st Level: </b></link>Absorb Elements</linklist>
+									<link class="power" recordname="reference.spelldata.dissonantwhispers@DD PHB Deluxe"><b>1st Level: </b></link>Dissonant Whispers</linklist>
 									<link class="power" recordname="reference.spelldata.ensnaringstrike@DD PHB Deluxe"><b>1st Level: </b></link>Ensnaring Strike
 									<link class="power" recordname="reference.spelldata.blur@DD PHB Deluxe"><b>2nd Level: </b></link>Blur
-									<link class="power" recordname="reference.spelldata.gustofwind@DD PHB Deluxe"><b>3rd Level: </b></link>Gust of Wind
+									<link class="power" recordname="reference.spelldata.blindness_deafness@DD PHB Deluxe"><b>2nd Level:</b></link> Blindness/Deafness
 									<link class="power" recordname="reference.spelldata.wallofwater@DD Xanathar's Guide to Everything"><b>3rd Level: </b></link>Wall of Water
-									<link class="reference_spell" recordname="reference.spelldata.elementalweapon@*"><b>3rd Level: </b></link>Elemental Weapon
+									<link class="power" recordname="reference.spelldata.waterbreathing@DD PHB Deluxe"><b>3rd Level: </b></link>Water Breathing
 									<link class="power" recordname="reference.spelldata.controlwater@DD PHB Deluxe"><b>4th Level: </b></link>Control Water
 									<link class="power" recordname="reference.spelldata.evard_sblacktentacles@DD PHB Deluxe"><b>4th Level: </b></link>Evard's Black Tentacles
 									<link class="power" recordname="reference.spelldata.coneofcold@DD PHB Deluxe"><b>5th Level: </b></link>Cone of Cold
 									<link class="power" recordname="reference.spelldata.maelstrom@DD Xanathar's Guide to Everything"><b>5th Level: </b></link>Maelstrom
 							</text>
 						</id-00006>
+						<id-00008>
+							<level type="number">1</level>
+							<locked type="number">1</locked>
+							<name type="string">Curse of the Deep</name>
+							<specialization type="string">The Leviathan</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>At 1st level, you can sap your opponent's strength using the deep ocean magic of your patron. As a bonus action, or when you cast <i>hex</i>, choose a creature you can see within 30 feet. The target is afflicted by the curse for 1 minute, or until the target dies, or you are incapacitated. Until the curse ends:</p>
+								<list>
+									<li>The cursed target's speed reduced by 15 feet and has a -2 penalty to their AC</li>
+									<li>Whenever the afflicted target makes an attack roll or a saving throw, the target must roll a d4 and subtract the number rolled.</li>
+									<li>If the afflicted target dies, your curse siphons their strength to bolster your own. Up to three creatures of your choice within 15 feet of the target are affected by the <i>bless</i> spell for the remaining duration of the curse (no concentration required)</li>
+								</list>
+								<p>You can't use this feature again until you finish a short of long rest.</p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.bless@DD PHB Deluxe">Bless</link>
+								</linklist>
+							</text>
+						</id-00008>
+						<id-00009>
+							<level type="number">6</level>
+							<locked type="number">1</locked>
+							<name type="string">Dark Escape</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Beginning at 6th level, the inky depths of the abyss defend you from harm. As a reaction when you take damage, <b>magical darkness</b> emanates out from you to fill a 10-foot-radius sphere that lasts for 1 minute. The darkness spreads around corners. </p>
+								<p>In addition you can immediately move up to half your movement. When you trigger Dark Escape, you can decide if the darkness follows you, or remains at the original location.</p>
+								<p>Once you use this feature, you can't do so again until you complete a short or long rest.</p>
+							</text>
+						</id-00009>
 						<invocationagonizingblast>
 							<level type="number">0</level>
 							<name type="string">Agonizing Blast</name>
@@ -11907,6 +12379,7 @@
 						<invocationarcanegunslinger>
 							<level type="number">0</level>
 							<name type="string">Arcane Gunslinger</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p><b>Prerequisite </b>: Pact of the Blade feature</p>
 								<p>You can create a pact weapon that is a sidearm or long arm, and you can transform a magical sidearm or long arm into your pact weapon.</p>
@@ -11986,6 +12459,7 @@
 						<invocationchainsofcarceri>
 							<level type="number">0</level>
 							<name type="string">Chains of Carceri</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p><b>Prerequisite </b>: 15th level, Pact of the Chain feature</p>
 								<p>You can cast hold monster at will--targeting a celestial, fiend, or elemental--without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.</p>
@@ -12029,6 +12503,7 @@
 						<invocationdevilssight>
 							<level type="number">0</level>
 							<name type="string">Devil's Sight</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
 							</text>
@@ -12107,6 +12582,7 @@
 						</invocationghostlygaze>
 						<invocationgiftofthedepths>
 							<level type="number">0</level>
+							<locked type="number">1</locked>
 							<name type="string">Gift of the Depths</name>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
@@ -12171,7 +12647,9 @@
 						</invocationmaceofdispater>
 						<invocationmaddeninghex>
 							<level type="number">0</level>
+							<locked type="number">1</locked>
 							<name type="string">Maddening Hex</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p><b>Prerequisite </b>: 5th level</p>
 								<p>As a bonus action, you cause a psychic disturbance around the target cursed by your <i>hex </i>spell or by a warlock feature of yours, such as Hexblade's Curse and Sign of Ill Omen. When you do so, you deal psychic damage to the target and each creature of your choice within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 0 damage).</p>
@@ -12226,6 +12704,7 @@
 						<invocationonewithshadows>
 							<level type="number">0</level>
 							<name type="string">One with Shadows</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p><b>Prerequisite </b>: 5th level</p>
 								<p>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.</p>
@@ -12308,6 +12787,7 @@
 						</invocationthiefoffivefates>
 						<invocationthirstingblade>
 							<level type="number">0</level>
+							<locked type="number">1</locked>
 							<name type="string">Thirsting Blade</name>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
@@ -12431,16 +12911,24 @@
 						</pactmagic>
 						<pactoftheblade>
 							<level type="number">0</level>
+							<locked type="number">1</locked>
 							<name type="string">Pact Boon: Pact of the Blade</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
-								<p>You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+								<p>You can use your action to create up to two pact weapons in your empty hands. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it, and can use your Charisma modifier instead of your Strength or Dexterity modifier for attack and damage rolls as long as the weapon lacks the two-handed property. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
 								<p>Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.</p>
-								<p>You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+								<p>You can transform up to two magic weapons into a pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.</p>
+								<p>In addition, you gain proficiency in Medium Armor and at level 5 gain the Thirsting Blade invocation. Thirsting Blade doesn't count against your total Invocations known.</p>
+								<linklist>
+									<link class="reference_classfeature" recordname="....features.invocationthirstingblade">Thirsting Blade</link>
+								</linklist>
+								<p> </p>
 							</text>
 						</pactoftheblade>
 						<pactofthechain>
 							<level type="number">0</level>
 							<name type="string">Pact Boon: Pact of the Chain</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p>You learn the find familiar spell and can cast it as a ritual. The spell doesn't count against your number of spells known.</p>
 								<p>When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.</p>
@@ -13503,8 +13991,7 @@
 									<link class="reference_classfeature" recordname="....features.id-00011">Summon Wildfire</link>
 									<link class="reference_classfeature" recordname="....features.id-00008">Enhanced Bond</link>
 									<link class="reference_classfeature" recordname="....features.id-00009">Flames of Life</link>
-									<link class="reference_classfeature" recordname="....features.id-00010">Blazing Endurance
-</link>
+									<link class="reference_classfeature" recordname="....features.id-00010">Blazing Endurance</link>
 								</linklist>
 							</text>
 						</id-00002>
@@ -13645,14 +14132,13 @@
 								<p><b>Druid Level - Spell</b></p>
 								<linklist>
 									<link class="power" recordname="reference.spelldata.locateanimalsorplants@DD PHB Deluxe"><b>Spell: </b></link>3rd - Locate Animals or Plants</linklist>
-									<link class="power" recordname="reference.spelldata.scorchingray@DD PHB Deluxe"><b>Spell:</b></link> 3rd - Scorching Ray
-									<link class="power" recordname="reference.spelldata.fireball@DD PHB Deluxe"><b>Spell:</b></link> 5th - Fireball
-									<link class="power" recordname="reference.spelldata.plantgrowth@DD PHB Deluxe"><b>Spell:</b></link> 5th - Plant Growth
+									<link class="power" recordname="reference.spelldata.scorchingray@DD PHB Deluxe"><b>Spell: </b></link>3rd - Scorching Ray
+									<link class="power" recordname="reference.spelldata.fireball@DD PHB Deluxe"><b>Spell: </b></link>5th - Fireball
+									<link class="power" recordname="reference.spelldata.plantgrowth@DD PHB Deluxe"><b>Spell: </b></link>5th - Plant Growth
 									<link class="power" recordname="reference.spelldata.auraoflife@DD PHB Deluxe"><b>Spell: </b></link>7th - Aura of Life
-									<link class="power" recordname="reference.spelldata.fireshield@DD PHB Deluxe"><b>Spell:</b></link> 7th - Fire Shield
-									<link class="power" recordname="reference.spelldata.flamestrike@DD PHB Deluxe"><b>Spell:</b></link> 9th - Flame Strike
-									<link class="power" recordname="reference.spelldata.raisedead@DD PHB Deluxe"><b>Spell:</b></link> 9th - Raise Dead
-
+									<link class="power" recordname="reference.spelldata.fireshield@DD PHB Deluxe"><b>Spell: </b></link>7th - Fire Shield
+									<link class="power" recordname="reference.spelldata.flamestrike@DD PHB Deluxe"><b>Spell: </b></link>9th - Flame Strike
+									<link class="power" recordname="reference.spelldata.raisedead@DD PHB Deluxe"><b>Spell: </b></link>9th - Raise Dead
 							</text>
 						</id-00007>
 						<id-00008>
@@ -13662,7 +14148,7 @@
 							<specialization type="string">Circle of Wildfire</specialization>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
-								<p>The bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus to one roll of the spell equal to the number rolled. </p>
+								<p>The bond with your wildfire spirit enhances your destructive and restorative spells. Whenever you cast a spell that deals fire damage or restores hit points while your wildfire spirit is summoned, roll a d8, and you gain a bonus to one roll of the spell equal to the number rolled.</p>
 								<p>In addition, when you cast a spell with a range other than self, the spell can originate from you or your wildfire spirit.</p>
 							</text>
 						</id-00008>
@@ -14312,9 +14798,10 @@
 						<p><i>Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.</i></p>
 						<p><b>-------------------------------------------------------------------------------</b></p>
 						<h>Druid Circles</h>
-						<p>At 2nd level, a druid gains the Druid Circle feature. Here are new options for that feature: Circle of Soulbeast</p>
+						<p>At 2nd level, a druid gains the Druid Circle feature. Here are new options for that feature: Circle of Soulbeast and Circle of Wildfire</p>
 						<linklist>
 							<link class="reference_classability" recordname="..abilities.id-00001">Circle of the Soulbeast</link>
+							<link class="reference_classability" recordname="..abilities.id-00002">Circle of Wildfire</link>
 						</linklist>
 						<p><b>-------------------------------------------------------------------------------</b></p>
 						<p><b>Druids and the Gods</b></p>
@@ -14435,9 +14922,19 @@
 						</feralsenses18>
 						<fightingstyle2>
 							<level type="number">2</level>
+							<locked type="number">1</locked>
 							<name type="string">Fighting Style</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+								<linklist>
+									<link class="reference_classfeature" recordname="....features.id-00012">Fighting Style: Archery</link>
+									<link class="reference_classfeature" recordname="....features.id-00015">Fighting Style: Defense</link>
+									<link class="reference_classfeature" recordname="....features.id-00013">Fighting Style: Dueling</link>
+									<link class="reference_classfeature" recordname="....features.id-00014">Fighting Style: Two-Weapon Fighting</link>
+									<link class="reference_classfeature" recordname="....features.id-00016">Fighting Style: Druidic Warrior</link>
+								</linklist>
+								<p/>
 								<p><b>Archery</b></p>
 								<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
 								<p><b>Defense</b></p>
@@ -14457,7 +14954,9 @@
 						</foeslayer20>
 						<hideinplainsight10>
 							<level type="number">10</level>
+							<locked type="number">1</locked>
 							<name type="string">Hide in Plain Sight</name>
+							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
 								<p>Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.</p>
 								<p>Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</p>
@@ -14539,6 +15038,207 @@
 								<p>When you cast the spell in this way, you can designate a number of creatures (including yourself) up to your Wisdom modifier. These creatures are not affected by the difficult terrain created by the spell, have advantage on the Strength saving throw caused by it, and have resistance to the damage caused by the spell.</p>
 							</text>
 						</id-00006>
+						<id-00007>
+							<level type="number">1</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Deft Explorer</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<h>[Replaces Natural Explorer]</h>
+								<p>You are an unsurpassed explorer and survivor. Choose one of the following benefits, and then choose another one at 6th and 10th level</p>
+								<linklist>
+									<link class="reference_classfeature" recordname="....features.id-00009">Canny</link>
+									<link class="reference_classfeature" recordname="....features.id-00010">Roving</link>
+									<link class="reference_classfeature" recordname="....features.id-00011">Tireless</link>
+								</linklist>
+							</text>
+						</id-00007>
+						<id-00008>
+							<level type="number">1</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Favored Foe</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<h>[Replaces Favored Foe]</h>
+								<p>You can call on your bond with nature to mark a creature as your favored enemy for a time: you know the hunter&#146;s mark spell, and Wisdom is your spellcasting ability for it. You can use it a certain number of times without expending a spell slot and without requiring concentration - a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest. </p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.hunter_smark@DD PHB Deluxe">Hunter's Mark</link>
+								</linklist>
+								<p>When you gain the Spellcasting feature at 2nd level, hunter&#146;s mark doesn&#146;t count against the number of ranger spells you know.</p>
+								<p/>
+							</text>
+						</id-00008>
+						<id-00009>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Canny</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Choose one skill: Animal Handling, Athletics, History, Insight, Investigation, Medicine, Nature, Perception, Stealth, or Survival. You gain proficiency in the chosen skill if you don&#146;t already have it, and you can add double your proficiency bonus to ability checks using that skill.</p>
+								<p>In addition, thanks to your extensive wandering, you are able to speak, read, and write two languages of your choice</p>
+							</text>
+						</id-00009>
+						<id-00010>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Roving</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.</p>
+							</text>
+						</id-00010>
+						<id-00011>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Tireless</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>As an action, you can give yourself a number of temporary hit points equal to 1d10 + your Wisdom modifier. You can use this special action a number of times equal to your Wisdom modifier (a minimum of once), and you regain all expended uses when you finish a long rest.</p>
+								<p>In addition, whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>
+							</text>
+						</id-00011>
+						<id-00012>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Archery</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+							</text>
+						</id-00012>
+						<id-00013>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Dueling</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+							</text>
+						</id-00013>
+						<id-00014>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Two-Weapon Fighting</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+							</text>
+						</id-00014>
+						<id-00015>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Defense</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+							</text>
+						</id-00015>
+						<id-00016>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Druidic Warrior</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>You learn two cantrips of your choice from the druid spell list. They count as ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the druid spell list.</p>
+							</text>
+						</id-00016>
+						<id-00017>
+							<level type="number">3</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Primal Awareness</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don&#146;t already know them, as shown in the Primal Awareness Spells table. These spells don&#146;t count against the number of ranger spells you know.</p>
+								<p><b>Ranger Level - Spells</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.detectmagic@DD PHB Deluxe"><b>Spell: </b></link>3rd level - Detect Magic</linklist>
+									<link class="power" recordname="reference.spelldata.speakwithanimals@DD PHB Deluxe"><b>Spell: </b></link>3rd level - Speak with Animals
+									<link class="power" recordname="reference.spelldata.beastsense@DD PHB Deluxe"><b>Spell: </b></link>5th level - Beast Sense
+									<link class="power" recordname="reference.spelldata.locateanimalsorplants@DD PHB Deluxe"><b>Spell: </b></link>5th level - Locate Animals or Plants
+									<link class="power" recordname="reference.spelldata.speakwithplants@DD PHB Deluxe"><b>Spell: </b></link>9th level - Speak with Plants
+									<link class="power" recordname="reference.spelldata.locatecreature@DD PHB Deluxe"><b>Spell:</b></link> 13th level - Locate Creature
+									<link class="power" recordname="reference.spelldata.communewithnature@DD PHB Deluxe"><b>Spell: </b></link>17th level - Commune with Nature
+
+							</text>
+						</id-00017>
+						<id-00018>
+							<level type="number">3</level>
+							<locked type="number">1</locked>
+							<name type="string">Primeval Awareness</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Beginning at 3rd Level, you can use your action and expend one Ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): Aberrations, Celestials, Dragons, Elementals, fey, Fiends, and Undead. This feature doesn't reveal the creatures' location or number.</p>
+							</text>
+						</id-00018>
+						<id-00019>
+							<level type="number">10</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Fade Away</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<h>Replaces Hide in Plain Sight</h>
+								<p>You can use a bonus action to magically become invisible, along with any equipment you are wearing or carrying, until the start of your next turn.</p>
+								<p>Once you use this feature, you can&#146;t use it again until you finish a short or long rest.</p>
+							</text>
+						</id-00019>
+						<id-00020>
+							<level type="number">3</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Ranger's Companion</name>
+							<specialization type="string">Beast Master</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>While wandering the wilds, a ranger encounters many sorts of animals, some of which the ranger might befriend. This friendship can arise from successful use of the Animal Handling skill or the animal friendship spell. If the resulting bond is strong enough, the animal might join the ranger on adventures.</p>
+								<p>A ranger who has the Beast Master archetype can form an even stronger bond, feeling almost like a sibling to an animal. A special type of beast awaits a Beast Master in the wilds, a creature whose lineage stretches back to the beginnings of the world: a primal beast known as a Beast of the Air or a Beast of the Earth. Such a creature seeks out the type of companionship that a Beast Master offers, ready for the two of them to battle the imbalances in the natural world.</p>
+								<p>The primal beast is a special creature that a Beast Master can choose for the Ranger&#146;s Companion feature. When choosing such a creature, you decide whether it is a Beast of the Air or the Earth, and you determine its appearance. Stories describe primal beasts that mystically change form to align with the spirit of their companion.</p>
+								<p>When a primal beast is met apart from a Beast Master, the creature takes the form a regular beast of challenge rating 1/4 or lower, as determined by the DM.</p>
+								<p/>
+								<linklist>
+									<link class="npc" recordname="reference.npcdata.id-00002">Beast of the Air</link>
+									<link class="npc" recordname="reference.npcdata.id-00004">Beast of the Earth</link>
+								</linklist>
+							</text>
+						</id-00020>
+						<id-00021>
+							<level type="number">2</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Expanded Spellcasting</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>The following spells expand the ranger spell list.</p>
+								<p><b>1st Level</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.entangle@DD PHB Deluxe">Entangle</link>
+									<link class="power" recordname="reference.spelldata.searingsmite@DD PHB Deluxe">Searing Smite</link>
+								</linklist>
+								<p><b>2nd Level</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.aid@DD PHB Deluxe">Aid</link>
+									<link class="power" recordname="reference.spelldata.gustofwind@DD PHB Deluxe">Gust of Wind</link>
+									<link class="power" recordname="reference.spelldata.magicweapon@DD PHB Deluxe">Magic Weapon</link>
+									<link class="power" recordname="reference.spelldata.enhanceability@DD PHB Deluxe">Enhance Ability</link>
+									<link class="power" recordname="reference.spelldata.wardingbond@DD PHB Deluxe">Warding Bond</link>
+								</linklist>
+								<p><b>3rd Level</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.blindingsmite@DD PHB Deluxe">Blinding Smite</link>
+									<link class="power" recordname="reference.spelldata.meldintostone@DD PHB Deluxe">Meld into Stone</link>
+									<link class="power" recordname="reference.spelldata.revivify@DD PHB Deluxe">Revivify</link>
+									<link class="power" recordname="reference.spelldata.tongues@DD PHB Deluxe">Tongues</link>
+								</linklist>
+								<p><b>4th Level</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.deathward@DD PHB Deluxe">Death Ward</link>
+									<link class="power" recordname="reference.spelldata.dominatebeast@DD PHB Deluxe">Dominate Beast</link>
+								</linklist>
+								<p><b>5th Level</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.awaken@DD PHB Deluxe">Awake</link>
+									<link class="power" recordname="reference.spelldata.greaterrestoration@DD PHB Deluxe">Greater Restoration
+</link>
+								</linklist>
+							</text>
+						</id-00021>
 						<land_sstride8>
 							<level type="number">8</level>
 							<name type="string">Land's Stride</name>
@@ -15019,6 +15719,16 @@
 							<link class="reference_classfeature" recordname="..features.feralsenses18">Feral Senses</link>
 							<link class="reference_classfeature" recordname="..features.foeslayer20">Foe Slayer</link>
 						</linklist>
+						<h>Variant Features</h>
+						<p>As an alternative, you can replace certain Ranger features with the following options:</p>
+						<linklist>
+							<link class="reference_classfeature" recordname="..features.id-00007">Deft Explorer</link>
+							<link class="reference_classfeature" recordname="..features.id-00008">Favored Foe</link>
+							<link class="reference_classfeature" recordname="..features.id-00021">Expanded Spellcasting</link>
+							<link class="reference_classfeature" recordname="..features.id-00017">Primal Awareness</link>
+							<link class="reference_classfeature" recordname="..features.id-00019">Fade Away</link>
+							<link class="reference_classfeature" recordname="..features.id-00020">[Beast Master] Ranger's Companion</link>
+						</linklist>
 						<h>Ranger Archetypes</h>
 						<p>At 3rd level, a ranger gains the Ranger Archetype feature. The following options are available to a ranger, in addition to those offered in the <i>Player's Handbook: </i>the Storm Reaver.</p>
 						<linklist>
@@ -15026,6 +15736,759 @@
 						</linklist>
 					</text>
 				</ranger>
+				<paladin>
+					<abilities>
+						<id-00001>
+							<locked type="number">1</locked>
+							<name type="string">Oath of the Corsair</name>
+							<text type="formattedtext">
+								<p>Not all those who swear oaths do so for upstanding reasons. The fearsome warriors of the high seas, Corsair Paladins, swear an oath to themselves and their crew. They will do whatever it takes to maintain their freedom, their fortune, and the favor of their shipmates. Chaotic by nature, these scallywags abhor any laws that aren't their own.</p>
+								<linklist>
+									<link class="reference_classfeature" recordname="....features.id-00001">Tenents of the Corsair</link>
+									<link class="reference_classfeature" recordname="....features.id-00005">Oath Spells (Corsair)</link>
+									<link class="reference_classfeature" recordname="....features.id-00006">Channel Divinity (Corsair)</link>
+									<link class="reference_classfeature" recordname="....features.id-00003">Aura of Gallantry</link>
+									<link class="reference_classfeature" recordname="....features.id-00004">Strength of the Seas </link>
+									<link class="reference_classfeature" recordname="....features.id-00002">Grand Captain 
+</link>
+								</linklist>
+							</text>
+						</id-00001>
+					</abilities>
+					<equipment>
+						<standard>
+							<group type="string">standard</group>
+						</standard>
+					</equipment>
+					<features>
+						<abilityscoreimprovement12>
+							<level type="number">12</level>
+							<name type="string">Ability Score Improvement</name>
+							<text type="formattedtext">
+								<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+							</text>
+						</abilityscoreimprovement12>
+						<abilityscoreimprovement16>
+							<level type="number">16</level>
+							<name type="string">Ability Score Improvement</name>
+							<text type="formattedtext">
+								<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+							</text>
+						</abilityscoreimprovement16>
+						<abilityscoreimprovement19>
+							<level type="number">19</level>
+							<name type="string">Ability Score Improvement</name>
+							<text type="formattedtext">
+								<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+							</text>
+						</abilityscoreimprovement19>
+						<abilityscoreimprovement4>
+							<level type="number">4</level>
+							<name type="string">Ability Score Improvement</name>
+							<text type="formattedtext">
+								<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+							</text>
+						</abilityscoreimprovement4>
+						<abilityscoreimprovement8>
+							<level type="number">8</level>
+							<name type="string">Ability Score Improvement</name>
+							<text type="formattedtext">
+								<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+							</text>
+						</abilityscoreimprovement8>
+						<auraofcourage10>
+							<level type="number">10</level>
+							<locked type="number">1</locked>
+							<name type="string">Aura of Courage</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</p>
+								<p>At 18th level, the range of this aura increases to 30 feet.</p>
+							</text>
+						</auraofcourage10>
+						<auraofcourage18>
+							<level type="number">18</level>
+							<name type="string">Aura of Courage</name>
+							<text type="formattedtext">
+								<p>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</p>
+								<p>At 18th level, the range of this aura increases to 30 feet.</p>
+							</text>
+						</auraofcourage18>
+						<auraofprotection18>
+							<level type="number">18</level>
+							<name type="string">Aura of Protection</name>
+							<text type="formattedtext">
+								<p>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</p>
+								<p>At 18th level, the range of this aura increases to 30 feet.</p>
+							</text>
+						</auraofprotection18>
+						<auraofprotection6>
+							<level type="number">6</level>
+							<locked type="number">1</locked>
+							<name type="string">Aura of Protection</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</p>
+								<p>At 18th level, the range of this aura increases to 30 feet.</p>
+							</text>
+						</auraofprotection6>
+						<cleansingtouch14>
+							<level type="number">14</level>
+							<name type="string">Cleansing Touch</name>
+							<text type="formattedtext">
+								<p>Beginning at 14th level, you can use your action to end one spell on yourself or on one willing creature that you touch.</p>
+								<p>You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain expended uses when you finish a long rest.</p>
+							</text>
+						</cleansingtouch14>
+						<divinehealth3>
+							<level type="number">3</level>
+							<name type="string">Divine Health</name>
+							<text type="formattedtext">
+								<p>By 3rd level, the divine magic flowing through you makes you immune to disease.</p>
+							</text>
+						</divinehealth3>
+						<divinesense1>
+							<level type="number">1</level>
+							<name type="string">Divine Sense</name>
+							<text type="formattedtext">
+								<p>The presence of strong evil registers on your senses like a noxious odor, and powerful good rings like heavenly music in your ears. As an action, you can open your awareness to detect such forces. Until the end of your next turn, you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover. You know the type (celestial, fiend, or undead) of any being whose presence you sense, but not its identity (the vampire Count Strahd von Zarovich, for instance).</p>
+								<p>Within the same radius, you also detect the presence of any place or object that has been consecrated or desecrated, as with the hallow spell.</p>
+								<p>You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.</p>
+							</text>
+						</divinesense1>
+						<divinesmite2>
+							<level type="number">2</level>
+							<name type="string">Divine Smite</name>
+							<text type="formattedtext">
+								<p>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot, plus 1d8 for each spell level higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.</p>
+							</text>
+						</divinesmite2>
+						<extraattack5>
+							<level type="number">5</level>
+							<name type="string">Extra Attack</name>
+							<text type="formattedtext">
+								<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+							</text>
+						</extraattack5>
+						<fightingstyle2>
+							<level type="number">2</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>At 2nd level, you adopt a style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.</p>
+								<linklist>
+									<link class="reference_classfeature" recordname="....features.id-00012">Fighting Style: Blessed Warrior</link>
+									<link class="reference_classfeature" recordname="....features.id-00008">Fighting Style: Defense</link>
+									<link class="reference_classfeature" recordname="....features.id-00009">Fighting Style: Dueling</link>
+									<link class="reference_classfeature" recordname="....features.id-00010">Fighting Style: Great Weapon Fighting</link>
+									<link class="reference_classfeature" recordname="....features.id-00011">Fighting Style: Protection</link>
+								</linklist>
+								<p><b>Defense</b></p>
+								<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+								<p><b>Dueling</b></p>
+								<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+								<p><b>Great Weapon Fighting</b></p>
+								<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+								<p><b>Protection</b></p>
+								<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+							</text>
+						</fightingstyle2>
+						<id-00001>
+							<level type="number">3</level>
+							<locked type="number">1</locked>
+							<name type="string">Tenents of the Corsair</name>
+							<specialization type="string">Oath of the Corsair</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Corsairs follow a strict code, and in order to earn their trust, their allies and followers must swear to the Corsair's Code. </p>
+								<p><b>Freedom. </b>Above all else, people are meant to be free. Like the birds of the air and fish of the sea, no one should be forced to follow any rules that they did not agree to or have a hand in deciding.</p>
+								<p><b>Loyalty. </b>Those that betray their allies are the lowest of low creatures. Trechary shall be repaid with death, and loyalty rewarded with an equal share of treasure and fortune.</p>
+								<p><b>Bravery. </b>Cowards are a liability and are not to be tolerated. If you won't defend yourself you deserve whatever comes to you. Live in such a way that the bards will sing of your deeds.</p>
+							</text>
+						</id-00001>
+						<id-00002>
+							<level type="number">20</level>
+							<locked type="number">1</locked>
+							<name type="string">Grand Captain </name>
+							<specialization type="string">Oath of the Corsair</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>At 20th level, you can become an embodiment of the high seas. You become a terrible, yet inpiring, sight to behold as the wind and waters of the high seas swirl around you. Using your action, you undergo a transformation. For 1 minute, you gain the following benefits.</p>
+								<list>
+									<li>You are immune to cold, lightning, and thunder damage. </li>
+									<li>You can cast the Command spell at 1st level as a bonus action on each of your turns without using a spell slot. </li>
+									<li>When you hit an enemy creature with a melee attack, they must make a Strength saving throw or be thrown back 20ft. and knocked prone.</li>
+								</list>
+							</text>
+						</id-00002>
+						<id-00003>
+							<level type="number">7</level>
+							<locked type="number">1</locked>
+							<name type="string">Aura of Gallantry</name>
+							<specialization type="string">Oath of the Corsair</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Starting at 7th level, your presence inspires your allies to stand and fight. You, and creatures within 10ft. of you cannot be knocked prone and have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks while you are conscious. </p>
+								<p>At 18th level the range of this aura increases to 30ft. </p>
+							</text>
+						</id-00003>
+						<id-00004>
+							<level type="number">15</level>
+							<locked type="number">1</locked>
+							<name type="string">Strength of the Seas </name>
+							<specialization type="string">Oath of the Corsair</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>Beginning at 15th level, those who dare to strike you are punished by the seas for their mutinous actions. Whenever a creature hits you with an attack, that creature takes your choice of cold, lighting, or thunder damage equal to your Charisma modifier (minimum of 1) if you&#146;re not incapacitated</p>
+							</text>
+						</id-00004>
+						<id-00005>
+							<level type="number">3</level>
+							<locked type="number">1</locked>
+							<name type="string">Oath Spells (Corsair)</name>
+							<specialization type="string">Oath of the Corsair</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>You gain oath spells at the paladin levels listed in the Oath of the Corsair Spells table. See the Sacred Oath class feature for how oath spells work.</p>
+								<p><b>Paladin Level - Spells</b></p>
+								<linklist>
+									<link class="power" recordname="reference.spelldata.fogcloud@DD PHB Deluxe"><b>3rd Level: </b></link>Fog Cloud</linklist>
+									<link class="power" recordname="reference.spelldata.zephyrstrike@DD Xanathar's Guide to Everything"><b>3rd Level: </b></link>Zephyr Strike
+									<link class="power" recordname="reference.spelldata.arcanelock@DD PHB Deluxe"><b>5th Level: </b></link>Arcane Lock
+									<link class="power" recordname="reference.spelldata.wardingwind@DD Xanathar's Guide to Everything"><b>5th Level: </b></link>Warding Wind
+									<link class="power" recordname="reference.spelldata.thunderstep@DD Xanathar's Guide to Everything"><b>9th Level: </b></link>Thunder Step
+									<link class="power" recordname="reference.spelldata.tidalwave@DD Xanathar's Guide to Everything"><b>9th Level: </b></link>Tidal Wave
+									<link class="power" recordname="reference.spelldata.controlwater@DD PHB Deluxe"><b>13th Level: </b></link>Control Water
+									<link class="power" recordname="reference.spelldata.stormsphere@DD Xanathar's Guide to Everything"><b>13th Level: </b></link>Storm Sphere
+									<link class="power" recordname="reference.spelldata.controlwinds@DD Xanathar's Guide to Everything"><b>17th Level: </b></link>Control Winds
+									<link class="power" recordname="reference.spelldata.maelstrom@DD Xanathar's Guide to Everything"><b>17th Level: </b></link>Maelstrom
+
+							</text>
+						</id-00005>
+						<id-00006>
+							<level type="number">3</level>
+							<locked type="number">1</locked>
+							<name type="string">Channel Divinity (Corsair)</name>
+							<specialization type="string">Oath of the Corsair</specialization>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you take this oath at 3rd level you gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works. </p>
+								<p><b>All Hands on Deck. </b>As an action on your turn, you bellow out a command to your crew. Any allied creature that can hear you within 60ft can use their reaction to immediately move up to half of their move speed, without provoking opportunity attacks.</p>
+								<p><b>Wrath of the Sea.</b> When you hit a creature with a melee attack, you can invoke this channel divinity to imbue your strike with the power of the sea. Choose either cold, lightning, or thunder damage. All damage done by your attack changes to the chosen type. Additionally, you may reroll any 1's or 2's on your damage dice, but must keep the new rolls. </p>
+							</text>
+						</id-00006>
+						<id-00008>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Defense</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+							</text>
+						</id-00008>
+						<id-00009>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Dueling</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+							</text>
+						</id-00009>
+						<id-00010>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Great Weapon Fighting</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.</p>
+							</text>
+						</id-00010>
+						<id-00011>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Protection</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.</p>
+							</text>
+						</id-00011>
+						<id-00012>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Fighting Style: Blessed Warrior</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>You learn two cantrips of your choice from the cleric spell list. They count as paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the cleric spell list.</p>
+							</text>
+						</id-00012>
+						<improveddivinesmite11>
+							<level type="number">11</level>
+							<name type="string">Improved Divine Smite</name>
+							<text type="formattedtext">
+								<p>By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra 1d8 radiant damage. If you also use your Divine Smite with an attack, you add this damage to the extra damage of your Divine Smite.</p>
+							</text>
+						</improveddivinesmite11>
+						<layonhands1>
+							<level type="number">1</level>
+							<name type="string">Lay on Hands</name>
+							<text type="formattedtext">
+								<p>Your blessed touch can heal wounds. You have a pool of healing power that replenishes when you take a long rest. With that pool, you can restore a total number of hit points equal to your paladin level x5. As an action, you can touch a creature and draw power from the pool to restore a number of hit points to that creature, up to the maximum amount remaining in your pool.</p>
+								<p>Alternatively, you can expend 5 hit points from your pool of healing to cure the target of one disease or neutralize one poison affecting it. You can cure multiple diseases and neutralize multiple poisons with a single use of Lay on Hands, expending hit points separately for each one.</p>
+								<p>This feature has no effect on undead and constructs.</p>
+							</text>
+						</layonhands1>
+						<sacredoath3>
+							<level type="number">3</level>
+							<name type="string">Sacred Oath</name>
+							<specializationchoice type="number">1</specializationchoice>
+							<text type="formattedtext">
+								<p>When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, or the Oath of Vengeance, all detailed at the end of the class description.</p>
+								<p>Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.</p>
+								<p><b>Oath Spells</b></p>
+								<p>Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day.</p>
+								<p>If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.</p>
+								<p><b>Breaking Your Oath</b></p>
+								<p>A paladin tries to hold to the highest standards of conduct, but even the most virtuous paladin is fallible. Sometimes the right path proves too demanding, sometimes a situation calls for the lesser of two evils, and sometimes the heat of emotion causes a paladin to transgress his or her oath.</p>
+								<p>A paladin who has broken a vow typically seeks absolution from a cleric who shares his or her faith or from another paladin of the same order. The paladin might spend an all night vigil in prayer as a sign of penitence, or undertake a fast or similar act of self-denial. After a rite of confession and forgiveness, the paladin starts fresh.</p>
+								<p>If a paladin willfully violates his or her oath and shows no sign of repentance, the consequences can be more serious. At the DM's discretion, an impenitent paladin might be forced to abandon this class and adopt another, or perhaps to take the Oathbreaker paladin option that appears in the Dungeon Master's Guide.</p>
+								<p><b>Channel Divinity</b></p>
+								<p>Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it.</p>
+								<p>When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.</p>
+								<p>Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC.</p>
+							</text>
+						</sacredoath3>
+						<spellcasting2>
+							<level type="number">2</level>
+							<name type="string">Spellcasting</name>
+							<text type="formattedtext">
+								<p>By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does. See chapter 10 for the general rules of spellcasting and chapter 11 for the paladin spell list.</p>
+								<linklist>
+									<link class="reference_colindex" recordname="reference.spelllists.paladin@DD Xanathar's Guide to Everything">Paladin Spells</link>
+								</linklist>
+								<p><b>Preparing and Casting Spells</b></p>
+								<p>The Paladin table shows how many spell slots you have to cast your spells. To cast one of your paladin spells of 1st level or higher, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p>
+								<p>You prepare the list of paladin spells that are available for you to cast, choosing from the paladin spell list. When you do so, choose a number of paladin spells equal to your Charisma modifier + half your paladin level, rounded down (minimum of one spell). The spells must be of a level for which you have spell slots. For example, if you are a 5th-level paladin, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 14, your list of prepared spells can include four spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells. You can change your list of prepared spells when you finish a long rest. Preparing a new list of paladin spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p>
+								<p><b>Spellcasting Ability</b></p>
+								<p>Charisma is your spellcasting ability for your paladin spells, since their power derives from the strength of your convictions. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one.</p>
+								<p><b>Spell save DC </b>= 8 + your proficiency bonus + your Charisma modifier</p>
+								<p><b>Spell attack modifier </b>= your proficiency bonus + your Charisma modifier</p>
+								<p><b>Spellcasting Focus</b></p>
+								<p>You can use a holy symbol (found in chapter 5) as a spellcasting focus for your paladin spells.</p>
+							</text>
+						</spellcasting2>
+					</features>
+					<hp>
+						<hitdice>
+							<name type="string">Hit Dice</name>
+							<text type="string">1d10 per paladin level</text>
+						</hitdice>
+						<hitpointsat1stlevel>
+							<name type="string">Hit Points at 1st Level</name>
+							<text type="string">10 + your Constitution modifier</text>
+						</hitpointsat1stlevel>
+						<hitpointsathigherlevels>
+							<name type="string">Hit Points at Higher Levels</name>
+							<text type="string">1d 10 (or 6) + your Constitution modifier per paladin level after 1st</text>
+						</hitpointsathigherlevels>
+					</hp>
+					<locked type="number">1</locked>
+					<multiclassfeatures>
+					</multiclassfeatures>
+					<multiclassproficiencies>
+						<armor>
+							<name type="string">Armor</name>
+							<text type="string">Light armor, medium armor, shields</text>
+						</armor>
+						<skills>
+							<name type="string">Skills</name>
+						</skills>
+						<tools>
+							<name type="string">Tools</name>
+						</tools>
+						<weapons>
+							<name type="string">Weapons</name>
+							<text type="string">Simple weapons, martial weapons</text>
+						</weapons>
+					</multiclassproficiencies>
+					<name type="string">Paladin</name>
+					<proficiencies>
+						<armor>
+							<name type="string">Armor</name>
+							<text type="string">All armor, shields</text>
+						</armor>
+						<savingthrows>
+							<name type="string">Saving Throws</name>
+							<text type="string">Wisdom, Charisma</text>
+						</savingthrows>
+						<skills>
+							<name type="string">Skills</name>
+							<text type="string">Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</text>
+						</skills>
+						<tools>
+							<name type="string">Tools</name>
+							<text type="string">None</text>
+						</tools>
+						<weapons>
+							<name type="string">Weapons</name>
+							<text type="string">Simple weapons, martial weapons</text>
+						</weapons>
+					</proficiencies>
+					<text type="formattedtext">
+						<h>Paladin</h>
+						<p><i>The true worth of a paladin is measured not in foes defeated or dungeons plundered. It is measured in lives saved and hearts turned to the causes of mercy and justice.
+ </i><b>-Isteval</b></p>
+						<p>A paladin is a living embodiment of an oath-a promise or a vow made manifest in the person of a holy warrior who has the skill and the determination to see the cause through to the end. Some paladins devote themselves expressly to protecting the innocent and spreading justice in the world, while others resolve to attain that goal by conquering those who stand defiant and bringing them under the rule of law.</p>
+						<p>Although no paladin in the world could be described as typical, a number of them are narrow-minded do-gooders who refuse to tolerate even the smallest deviation from their own outlook. Paladins who take up the adventuring life, however, rarely remain so rigid in their attitudes-if only to keep from alienating their companions.</p>
+						<p>You can flesh out your paladin character by using the suggestions below. It's important to keep in mind that most paladins aren't robots. They have doubts and prejudices and harbor contradictory thoughts just as any other character does. Some are compelled by an internal motivation that might sometimes be at odds with the principles of their oaths.</p>
+						<h>Personal Goal</h>
+						<p>The precepts of a paladin's oath provide purpose to the character and dictate an ultimate goal or an overall intent that the paladin abides by and advances. Aside from that, some paladins are driven by a personal goal that either complements or transcends the dictates of their oaths. Paladins who swear different oaths might have the same personal goal, differing only in how they apply that goal to their actions when upholding their oaths.</p>
+						<p>If your paladin character has a personal goal, it might be drawn from some life event and thus not directly tied to the oath.</p>
+						<linklist>
+							<link class="table" recordname="tables.tab_personalgoals@DD Xanathar's Guide to Everything"><b>Table: </b></link>Personal Goals</linklist>
+						<h>Symbol</h>
+						<p>Paladins are mindful of the influence of symbols, and many of them adopt or design an artistic device that bears a distinctive image. Your symbol exemplifies the oath you have taken and communicates that message to those around you, friend and foe alike.</p>
+						<p>Your symbol might be displayed on a banner, a flag, or your clothing for all to see. Or it could be less obvious, such as a trinket or a token that you carry concealed on your person.</p>
+						<linklist>
+							<link class="table" recordname="tables.tab_symbols@DD Xanathar's Guide to Everything"><b>Table: </b></link>Symbols</linklist>
+						<h>Nemesis</h>
+						<p>Their adherence to a sacred oath demands that paladins take an active stance in carrying their beliefs into the world. This activity naturally leads to conflict with creatures or entities that oppose those beliefs. Among those opponents, one often stands out as a paladin's most persistent or most formidable foe-a nemesis whose presence or influence is a constant factor in a paladin's life.</p>
+						<p>Your paladin character might have an enemy that dates from the days before you took up your path. Or you could be a target because when you became a paladin, you immediately attracted the attention of those that would do you in. If you have a nemesis, who or what is it? Whom among your enemies do you consider to be the biggest threat to achieving your goals?</p>
+						<linklist>
+							<link class="table" recordname="tables.tab_nemeses@DD Xanathar's Guide to Everything"><b>Table: </b></link>Nemesis</linklist>
+						<h>Temptation</h>
+						<p>Although paladins are dedicated to their oaths, they are mortals, and thus they are flawed. Many of them exhibit a type of behavior or hold to an attitude that is not in keeping with the highest ideals of their calling.</p>
+						<p>What is the temptation that your character succumbs to or finds it difficult to resist?</p>
+						<linklist>
+							<link class="table" recordname="tables.tab_temptations@DD Xanathar's Guide to Everything"><b>Table: </b></link>Temptations</linklist>
+						<h>The Paladin</h>
+						<table>
+							<tr>
+								<td><b>Level</b></td>
+								<td><b>Proficiency Bonus</b></td>
+								<td colspan="3"><b>Features</b></td>
+							</tr>
+							<tr>
+								<td>1st</td>
+								<td>+2</td>
+								<td colspan="3">Divine Sense, Lay on Hands</td>
+							</tr>
+							<tr>
+								<td>2nd</td>
+								<td>+2</td>
+								<td colspan="3">Fighting Style, Spellcasting, Divine Smite</td>
+							</tr>
+							<tr>
+								<td>3rd</td>
+								<td>+2</td>
+								<td colspan="3">Divine Health, Sacred Oath</td>
+							</tr>
+							<tr>
+								<td>4th</td>
+								<td>+2</td>
+								<td colspan="3">Ability Score Improvement</td>
+							</tr>
+							<tr>
+								<td>5th</td>
+								<td>+3</td>
+								<td colspan="3">Extra Attack</td>
+							</tr>
+							<tr>
+								<td>6th</td>
+								<td>+3</td>
+								<td colspan="3">Aura of Protection</td>
+							</tr>
+							<tr>
+								<td>7th</td>
+								<td>+3</td>
+								<td colspan="3">Sacred Oath feature</td>
+							</tr>
+							<tr>
+								<td>8th</td>
+								<td>+3</td>
+								<td colspan="3">Ability Score Improvement</td>
+							</tr>
+							<tr>
+								<td>9th</td>
+								<td>+4</td>
+								<td colspan="3">-</td>
+							</tr>
+							<tr>
+								<td>10th</td>
+								<td>+4</td>
+								<td colspan="3">Aura of Courage</td>
+							</tr>
+							<tr>
+								<td>11th</td>
+								<td>+4</td>
+								<td colspan="3">Improved Divine Smite</td>
+							</tr>
+							<tr>
+								<td>12th</td>
+								<td>+4</td>
+								<td colspan="3">Ability Score Improvement</td>
+							</tr>
+							<tr>
+								<td>13th</td>
+								<td>+5</td>
+								<td colspan="3">-</td>
+							</tr>
+							<tr>
+								<td>14th</td>
+								<td>+5</td>
+								<td colspan="3">Cleansing Touch</td>
+							</tr>
+							<tr>
+								<td>15th</td>
+								<td>+5</td>
+								<td colspan="3">Sacred Oath feature</td>
+							</tr>
+							<tr>
+								<td>16th</td>
+								<td>+5</td>
+								<td colspan="3">Ability Score Improvement</td>
+							</tr>
+							<tr>
+								<td>17th</td>
+								<td>+6</td>
+								<td colspan="3">-</td>
+							</tr>
+							<tr>
+								<td>18th</td>
+								<td>+6</td>
+								<td colspan="3">Aura improvements</td>
+							</tr>
+							<tr>
+								<td>19th</td>
+								<td>+6</td>
+								<td colspan="3">Ability Score Improvement</td>
+							</tr>
+							<tr>
+								<td>20th</td>
+								<td>+6</td>
+								<td colspan="3">Sacred Oath feature</td>
+							</tr>
+						</table>
+						<p><b>Spell Slots per Spell Level</b></p>
+						<table>
+							<tr>
+								<td><b>Level</b></td>
+								<td><b>1st</b></td>
+								<td><b>2nd</b></td>
+								<td><b>3rd</b></td>
+								<td><b>4th</b></td>
+								<td><b>5th</b></td>
+							</tr>
+							<tr>
+								<td>1st</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>2nd</td>
+								<td>2</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>3rd</td>
+								<td>3</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>4th</td>
+								<td>3</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>5th</td>
+								<td>4</td>
+								<td>2</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>6th</td>
+								<td>4</td>
+								<td>2</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>7th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>8th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>9th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>2</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>10th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>2</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>11th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>12th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>13th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>1</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>14th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>1</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>15th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>2</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>16th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>2</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td>17th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>3</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>18th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>3</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>19th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>3</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>20th</td>
+								<td>4</td>
+								<td>3</td>
+								<td>3</td>
+								<td>3</td>
+								<td>2</td>
+							</tr>
+						</table>
+						<h>Class Features</h>
+						<p>As a paladin, you gain the following class features.</p>
+						<h>Hit Points</h>
+						<p><b>Hit Dice: </b>1d10 per paladin level</p>
+						<p><b>Hit Points At 1st Level: </b>10 + your Constitution modifier</p>
+						<p><b>Hit Points At Higher Levels: </b>1d 10 (or 6) + your Constitution modifier per paladin level after 1st</p>
+						<h>Proficiencies</h>
+						<p><b>Armor: </b>All armor, shields</p>
+						<p><b>Weapons: </b>Simple weapons, martial weapons</p>
+						<p><b>Tools: </b>None</p>
+						<p><b>Saving Throws: </b>Wisdom, Charisma</p>
+						<p><b>Skills: </b>Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</p>
+						<h>Equipment</h>
+						<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+						<list>
+							<li>(a) a martial weapon and a shield or (b) two martial weapons</li>
+							<li>(a) five javelins or (b) any simple melee weapon</li>
+							<li>(a) a priest's pack or (b) an explorer's pack</li>
+							<li>Chain mail and a holy symbol</li>
+						</list>
+						<linklist>
+							<link class="reference_weapontable" recordname="reference.equipmentlists.weapontable@*"><b>Link: </b></link>Weapon List</linklist>
+							<link class="reference_armortable" recordname="reference.equipmentlists.armortable@*"><b>Link: </b></link>Armor List
+							<link class="reference_adventuringgeartable" recordname="reference.equipmentlists.adventuringgeartable@*"><b>Link: </b></link>Adventuring Gear
+							<link class="reference_adventuringgeartable" recordname="reference.equipmentlists.toolstable@*"><b>Link: </b></link>Tools
+						<h>Features</h>
+						<linklist>
+							<link class="reference_classfeature" recordname="..features.divinesense1">Divine Sense</link>
+							<link class="reference_classfeature" recordname="..features.layonhands1">Lay on Hands</link>
+							<link class="reference_classfeature" recordname="..features.fightingstyle2">Fighting Style</link>
+							<link class="reference_classfeature" recordname="..features.spellcasting2">Spellcasting</link>
+							<link class="reference_classfeature" recordname="..features.divinesmite2">Divine Smite</link>
+							<link class="reference_classfeature" recordname="..features.divinehealth3">Divine Health</link>
+							<link class="reference_classfeature" recordname="..features.sacredoath3">Sacred Oath</link>
+							<link class="reference_classfeature" recordname="..features.abilityscoreimprovement4">Ability Score Improvement</link>
+							<link class="reference_classfeature" recordname="..features.extraattack5">Extra Attack</link>
+							<link class="reference_classfeature" recordname="..features.auraofprotection6">Aura of Protection</link>
+							<link class="reference_classfeature" recordname="..features.auraofcourage10">Aura of Courage</link>
+							<link class="reference_classfeature" recordname="..features.improveddivinesmite11">Improved Divine Smite</link>
+							<link class="reference_classfeature" recordname="..features.cleansingtouch14">Cleansing Touch</link>
+						</linklist>
+						<h>Sacred Oaths</h>
+						<p>At 3rd level, a paladin gains the Sacred Oath feature. The following options are available to a paladin, in addition to those offered in the <i>Player's Handbook: </i>the Oath of the Corsair</p>
+						<linklist>
+							<link class="reference_classability" recordname="..abilities.id-00001">Oath of the Corsair</link>
+						</linklist>
+					</text>
+				</paladin>
 				<sorcerer>
 					<abilities>
 						<id-00001>
@@ -15434,7 +16897,6 @@
 									<link class="power" recordname="reference.spelldata.staggeringsmite@DD PHB Deluxe">Staggering Smite</link>
 								</linklist>
 								<p/>
-								<p/>
 							</text>
 						</id-00023>
 						<id-00024>
@@ -15458,6 +16920,38 @@
 								<p>At 1st level, you gain proficiency with shields, simple weapons, and martial weapons.</p>
 							</text>
 						</id-00025>
+						<id-00026>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Metamagic: Seeking Spell</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you cast a spell that requires you to make a spell attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 sorcery point to ignore the effects of half- and three-quarters cover against targets of the spell.</p>
+							</text>
+						</id-00026>
+						<id-00027>
+							<level type="number">0</level>
+							<locked type="number">1</locked>
+							<name type="string">Metamagic: Unerring Spell</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>If you make an attack roll for a spell and miss, you can spend 2 sorcery points to reroll the attack roll. You must use the result of the second roll.</p>
+								<p>You can use Unerring Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
+							</text>
+						</id-00027>
+						<id-00028>
+							<level type="number">2</level>
+							<locked type="number">1</locked>
+							<name type="string">VARIANT: Font of Magic options</name>
+							<specializationchoice type="number">0</specializationchoice>
+							<text type="formattedtext">
+								<p>When you gain the Font of Magic feature, you get access to the following ways to spend your sorcery points.</p>
+								<p><b>Empowering Reserves. </b>When you make an ability check on your turn, you can spend 2 sorcery points to gain advantage on the check. </p>
+								<p><b>Imbuing Touch. </b>As an action, you can touch one nonmagical weapon and spend 2 sorcery points to imbue it with magic for 1 minute. For the duration, the weapon is considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.</p>
+								<p><b>Sorcerous Fortitude.</b> As an action, you can spend any number of sorcery points to roll a d4 for each point expended. You gain a number of temporary hit points equal to the total rolled.</p>
+								<p/>
+							</text>
+						</id-00028>
 						<metamagic>
 							<level type="number">3</level>
 							<locked type="number">1</locked>
@@ -15476,8 +16970,10 @@
 									<link class="reference_classfeature" recordname="....features.metamagicquickenedspell">Quickened Spell</link>
 									<link class="reference_classfeature" recordname="....features.id-00018">Redirected Spell</link>
 									<link class="reference_classfeature" recordname="....features.id-00019">Safe Spell</link>
+									<link class="reference_classfeature" recordname="....features.id-00026">Seeking Spell</link>
 									<link class="reference_classfeature" recordname="....features.metamagicsubtlespell">Subtle Spell</link>
 									<link class="reference_classfeature" recordname="....features.metamagictwinnedspell">Twinned Spell</link>
+									<link class="reference_classfeature" recordname="....features.id-00027">Unerring Spell</link>
 								</linklist>
 							</text>
 						</metamagic>
@@ -15509,6 +17005,7 @@
 						</metamagicempoweredspell>
 						<metamagicextendedspell>
 							<level type="number">0</level>
+							<locked type="number">1</locked>
 							<name type="string">Metamagic: Extended Spell</name>
 							<specializationchoice type="number">0</specializationchoice>
 							<text type="formattedtext">
@@ -15600,7 +17097,7 @@
 							<text type="string">1d6 per class level</text>
 						</hitdice>
 					</hp>
-					<locked type="number">0</locked>
+					<locked type="number">1</locked>
 					<multiclassproficiencies>
 						<armor>
 							<name type="string">Armor</name>
@@ -16102,11 +17599,31 @@
 							<link class="reference_classfeature" recordname="..features.sorcerousrestoration">Sorcerous Restoration</link>
 						</linklist>
 						<h>Sorcerous Origin</h>
-						<p>Different sorcerers claim different origins for their innate magic. Although many variations exist, most of these origins fall into several categories: favored soul, phoenix sorcery, sea sorcery, stone sorcery, and shadow.</p>
+						<p>Different sorcerers claim different origins for their innate magic. Although many variations exist, most of these origins fall into several categories: stone sorcery.</p>
 						<linklist>
-							<link class="reference_classability" recordname="..abilities.id-00003">Storm Sorcery</link>
-							<link class="reference_classability" recordname="..abilities.seasorcery">Sea Sorcery</link>
-							<link class="reference_classability" recordname="..abilities.shadow">Shadow</link>
+							<link class="reference_classability" recordname="..abilities.id-00001">Stone Sorcery</link>
+						</linklist>
+						<p/>
+						<h>Variant Features</h>
+						<p>The following features are modified or in addition to from the base Sorcerer class:</p>
+						<linklist>
+							<link class="reference_classfeature" recordname="..features.id-00001">Sourcerous Essence</link>
+							<link class="reference_classfeature" recordname="..features.id-00028">Font of Magic options</link>
+							<link class="reference_classfeature" recordname="..features.metamagic">Expanded Metamagic</link>
+						</linklist>
+						<p/>
+						<h>Origin Spells</h>
+						<p>Every Sorcerer Origin now one free thematic spell up to spell level 5 (for a total of 5 additional spells known):</p>
+						<linklist>
+							<link class="reference_classfeature" recordname="..features.id-00011">Origin Spells: Divine Soul</link>
+							<link class="reference_classfeature" recordname="..features.id-00013">Origin Spells: Draconic Bloodline</link>
+							<link class="reference_classfeature" recordname="..features.id-00016">Origin Spells: Phoenix Sorcery</link>
+							<link class="reference_classfeature" recordname="..features.id-00002">Origin Spells: Sea Sorcery</link>
+							<link class="reference_classfeature" recordname="..features.id-00010">Origin Spells: Shadow Magic</link>
+							<link class="reference_classfeature" recordname="..features.id-00017">Origin Spells: Stone Sorcery</link>
+							<link class="reference_classfeature" recordname="..features.id-00003">Origin Spells: Storm Sorcery</link>
+							<link class="reference_classfeature" recordname="..features.id-00012">Origin Spells: Wild Magic
+</link>
 						</linklist>
 					</text>
 				</sorcerer>
@@ -16339,6 +17856,16 @@
 					</text>
 				</id-00013>
 			</category>
+			<category name="Talents - Weapon Specialization" baseicon="0" decalicon="0">
+				<id-00014>
+					<locked type="number">1</locked>
+					<name type="string">Dual Wielder (Major)</name>
+					<text type="formattedtext">
+						<p><b><i>Melee, Ranged, Light</i></b></p>
+						<p>You can use two-weapon fighting with light ranged weapons and with one-handed melee weapons which are not light.</p>
+					</text>
+				</id-00014>
+			</category>
 		</featdata>
 		<npcdata>
 			<category name="" baseicon="0" decalicon="0">
@@ -16396,13 +17923,14 @@
 					<name type="string">Wildfire Spirit</name>
 					<reactions>
 					</reactions>
-					<savingthrows type="string"> Dex +4, Con +4, Wis +4</savingthrows>
+					<savingthrows type="string">Dex +4, Con +4, Wis +4</savingthrows>
 					<senses type="string">darkvision 60 ft., passive Perception 12</senses>
 					<size type="string">small</size>
 					<skills type="string">Nature +4</skills>
 					<spells>
 					</spells>
 					<text type="formattedtext">
+						<p/>
 					</text>
 					<token type="token">tokens/campaign/Wildfire Spirit.png@Zen's awesome player mods</token>
 					<traits>
@@ -16414,6 +17942,243 @@
 					<type type="string">elemental</type>
 					<xp type="number">0</xp>
 				</id-00001>
+				<id-00002>
+					<abilities>
+						<charisma>
+							<bonus type="number">0</bonus>
+							<score type="number">11</score>
+						</charisma>
+						<constitution>
+							<bonus type="number">1</bonus>
+							<score type="number">13</score>
+						</constitution>
+						<dexterity>
+							<bonus type="number">3</bonus>
+							<score type="number">16</score>
+						</dexterity>
+						<intelligence>
+							<bonus type="number">-1</bonus>
+							<score type="number">8</score>
+						</intelligence>
+						<strength>
+							<bonus type="number">-2</bonus>
+							<score type="number">6</score>
+						</strength>
+						<wisdom>
+							<bonus type="number">2</bonus>
+							<score type="number">14</score>
+						</wisdom>
+					</abilities>
+					<ac type="number">13</ac>
+					<actions>
+						<id-00001>
+							<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 1d6 + 3 slashing damage.</desc>
+							<name type="string">Shred</name>
+						</id-00001>
+					</actions>
+					<alignment type="string">neutral</alignment>
+					<hd type="string">Beast&#146;s Con mod + Ranger Wis mod + five times Ranger level</hd>
+					<hp type="number">10</hp>
+					<innatespells>
+					</innatespells>
+					<lairactions>
+					</lairactions>
+					<languages type="string">understands the languages you speak</languages>
+					<legendaryactions>
+					</legendaryactions>
+					<locked type="number">1</locked>
+					<name type="string">Beast of the Air</name>
+					<reactions>
+					</reactions>
+					<savingthrows type="string">Dex +5, Con +3, Wis +4</savingthrows>
+					<senses type="string">darkvision 60 ft., passive Perception 14</senses>
+					<size type="string">small</size>
+					<skills type="string">Perception +4, Stealth +5</skills>
+					<speed type="string">10 ft., fly 60 ft</speed>
+					<spells>
+					</spells>
+					<text type="formattedtext">
+						<p/>
+					</text>
+					<token type="token">tokens/campaign/Beast of the Air.png@Zen's awesome player mods</token>
+					<traits>
+						<id-00001>
+							<desc type="string">The beast doesn&#146;t provoke opportunity attacks when it flies out of an enemy&#146;s reach.</desc>
+							<name type="string">Flyby</name>
+						</id-00001>
+						<id-00002>
+							<desc type="string">If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored</desc>
+							<name type="string">Primal Rebirth</name>
+						</id-00002>
+						<id-00003>
+							<desc type="string">As a bonus action, you can command the beast to make its shred attack or to Hide</desc>
+							<name type="string">Ready Companion</name>
+						</id-00003>
+					</traits>
+					<type type="string">beast</type>
+					<xp type="number">0</xp>
+				</id-00002>
+				<id-00004>
+					<abilities>
+						<charisma>
+							<bonus type="number">0</bonus>
+							<score type="number">11</score>
+						</charisma>
+						<constitution>
+							<bonus type="number">2</bonus>
+							<score type="number">15</score>
+						</constitution>
+						<dexterity>
+							<bonus type="number">2</bonus>
+							<score type="number">14</score>
+						</dexterity>
+						<intelligence>
+							<bonus type="number">-1</bonus>
+							<score type="number">8</score>
+						</intelligence>
+						<strength>
+							<bonus type="number">2</bonus>
+							<score type="number">14</score>
+						</strength>
+						<wisdom>
+							<bonus type="number">2</bonus>
+							<score type="number">14</score>
+						</wisdom>
+					</abilities>
+					<ac type="number">12</ac>
+					<actions>
+						<id-00001>
+							<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1d6 + 2 slashing damage</desc>
+							<name type="string">Maul</name>
+						</id-00001>
+					</actions>
+					<alignment type="string">neutral</alignment>
+					<hd type="string">Beast&#146;s Con mod + Ranger Wis mod + five times Ranger level</hd>
+					<hp type="number">10</hp>
+					<innatespells>
+					</innatespells>
+					<lairactions>
+					</lairactions>
+					<languages type="string">understands the languages you speak</languages>
+					<legendaryactions>
+					</legendaryactions>
+					<locked type="number">1</locked>
+					<name type="string">Beast of the Earth</name>
+					<reactions>
+					</reactions>
+					<savingthrows type="string">Dex +4, Con +4, Wis +4</savingthrows>
+					<senses type="string">darkvision 60 ft., passive Perception 14</senses>
+					<size type="string">medium</size>
+					<skills type="string">Perception +4, Stealth +4</skills>
+					<speed type="string">40 ft., climb or swim 40 ft. (your choice when you\nbond with the beast)</speed>
+					<spells>
+					</spells>
+					<text type="formattedtext">
+						<p/>
+					</text>
+					<token type="token">tokens/campaign/Beast of the Earth.png@Zen's awesome player mods</token>
+					<traits>
+						<id-00001>
+							<desc type="string">If the beast moves at least 20 feet straight toward a target and then hits it with a maul attack on the same turn, the target takes an extra 1d6 slashing damage. The DC equals your spell save DC. If the target is a creature, it must succeed on a Strength saving throw against your spell save DC or be knocked prone.</desc>
+							<name type="string">Charge</name>
+						</id-00001>
+						<id-00002>
+							<desc type="string">If the beast has died within the last hour, you can use your action to touch it and expend a spell slot of 1st level or higher. The beast returns to life after 1 minute with all its hit points restored</desc>
+							<name type="string">Primal Rebirth</name>
+						</id-00002>
+						<id-00003>
+							<desc type="string">As a bonus action, you can command the beast to make its shred attack or to Hide</desc>
+							<name type="string">Ready Companion</name>
+						</id-00003>
+					</traits>
+					<type type="string">beast</type>
+					<xp type="number">0</xp>
+				</id-00004>
+				<id-00005>
+					<abilities>
+						<charisma>
+							<bonus type="number">-1</bonus>
+							<score type="number">9</score>
+						</charisma>
+						<constitution>
+							<bonus type="number">2</bonus>
+							<score type="number">14</score>
+						</constitution>
+						<dexterity>
+							<bonus type="number">2</bonus>
+							<score type="number">15</score>
+						</dexterity>
+						<intelligence>
+							<bonus type="number">0</bonus>
+							<score type="number">10</score>
+						</intelligence>
+						<strength>
+							<bonus type="number">-2</bonus>
+							<score type="number">6</score>
+						</strength>
+						<wisdom>
+							<bonus type="number">1</bonus>
+							<score type="number">12</score>
+						</wisdom>
+					</abilities>
+					<ac type="number">13</ac>
+					<actions>
+						<id-00001>
+							<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</desc>
+							<name type="string">Bite</name>
+						</id-00001>
+						<id-00002>
+							<desc type="string">Choose one creature the drake can see within 30 feet. The drake unleashes a torrent of water from its mouth, causing the targeted creature to make a Dexterity saving throw against your warlock spell save DC. If that creature fails, it is pushed up to 10 feet directly away from the drake, and takes bludgeoning damage equal to your warlock level + your Charisma modifier (half damage on a success)</desc>
+							<name type="string">Torrent Breath</name>
+						</id-00002>
+						<id-00003>
+							<desc type="string">The drake shifts the color of its scales to blend into its environment until it attacks or uses its Torrent Breath, or until its concentration ends (as if concentrating on a spell). Until then, it has advantage on Dexterity (Stealth) checks made to hide.</desc>
+							<name type="string">Marine Camouflage</name>
+						</id-00003>
+					</actions>
+					<alignment type="string">neutral</alignment>
+					<cr type="string">1/4</cr>
+					<damageresistances type="string">cold</damageresistances>
+					<hd type="string">2d4 + 3</hd>
+					<hp type="number">8</hp>
+					<innatespells>
+					</innatespells>
+					<lairactions>
+					</lairactions>
+					<languages type="string">understands Aquan and Draconic but can't speak</languages>
+					<legendaryactions>
+					</legendaryactions>
+					<locked type="number">1</locked>
+					<name type="string">Young Sea Drake</name>
+					<reactions>
+					</reactions>
+					<senses type="string">darkvision 60 ft., passive Perception 13</senses>
+					<size type="string">Tiny</size>
+					<skills type="string">Perception +3, Stealth +4</skills>
+					<speed type="string">10 ft., fly 50 ft., swim 60 ft.</speed>
+					<spells>
+					</spells>
+					<text type="formattedtext">
+						<p/>
+					</text>
+					<token type="token">tokens/campaign/Sea Drake.png@Zen's awesome player mods</token>
+					<traits>
+						<id-00001>
+							<desc type="string">Magical darkness doesn't impede the drake's darkvision and it has advantage of Wisdom (Perception) checks that rely on sight.</desc>
+							<name type="string">Eyes of the Deep</name>
+						</id-00001>
+						<id-00002>
+							<desc type="string">The drake has advantage on saving throws against spells and other magical effects.</desc>
+							<name type="string">Magic Resistance</name>
+						</id-00002>
+						<id-00003>
+							<desc type="string">The drake can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 feet of it that can understand a language.</desc>
+							<name type="string">Limited Telepathy</name>
+						</id-00003>
+					</traits>
+					<type type="string">dragon</type>
+					<xp type="number">50</xp>
+				</id-00005>
 			</category>
 		</npcdata>
 		<racedata>

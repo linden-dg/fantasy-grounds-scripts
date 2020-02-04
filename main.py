@@ -3,7 +3,7 @@ from utils.zip_utils import zip_folder, extract_to_directory
 
 
 def format_class_data(xml_root):
-    reference = root.find('reference')
+    reference = xml_root.find('reference')
     classdata = reference.find('classdata')[0]
     for c in classdata:
         classname = c.find('name').text.lower()
